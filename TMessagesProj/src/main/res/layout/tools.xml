@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (C) 2012 The Android Open Source Project
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:markers="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tools"
+    style="@style/ActionBar.Bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/tool_palette_gutter">
+    <!-- zoomer -->
+    <view
+        android:id="@+id/tool_zoom"
+        class="sections.ui.components.markers.ToolButton$ZoomToolButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/tool_palette_gutter"
+        android:layout_weight="1"
+        android:padding="6dp"
+        android:tag="tool_zoom" />
+    <!-- felt tip pen -->
+    <view
+        android:id="@+id/pen_thin"
+        class="sections.ui.components.markers.ToolButton$PenToolButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:tag="pen_thin"
+        markers:strokeWidthMax="4px"
+        markers:strokeWidthMin="2px" />
+    <!-- small brush -->
+    <view
+        android:id="@+id/pen_medium"
+        class="sections.ui.components.markers.ToolButton$PenToolButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:tag="pen_medium"
+        markers:strokeWidthMax="10dp"
+        markers:strokeWidthMin="0.5dp" />
+    <!-- large brush -->
+    <view
+        android:id="@+id/pen_thick"
+        class="sections.ui.components.markers.ToolButton$PenToolButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:tag="pen_thick"
+        markers:strokeWidthMax="24dp"
+        markers:strokeWidthMin="2dp" />
+    <!-- fat marker -->
+    <view
+        android:id="@+id/fat_marker"
+        class="sections.ui.components.markers.ToolButton$PenToolButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:tag="pen_marker"
+        markers:strokeWidthMax="48dp"
+        markers:strokeWidthMin="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/tool_palette_gutter"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <view
+            android:id="@+id/whiteboard_marker"
+            class="sections.ui.components.markers.ToolButton$PenTypeButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:tag="type_whiteboard"
+            markers:penType="whiteboard" />
+
+        <view
+            android:id="@+id/felttip_marker"
+            class="sections.ui.components.markers.ToolButton$PenTypeButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:tag="type_felttip"
+            markers:penType="feltTip" />
+
+        <view
+            android:id="@+id/airbrush_marker"
+            class="sections.ui.components.markers.ToolButton$PenTypeButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="1dp"
+            android:tag="type_airbrush"
+            markers:penType="airbrush" />
+
+        <view
+            android:id="@+id/fountainpen_marker"
+            class="sections.ui.components.markers.ToolButton$PenTypeButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:tag="type_fountain"
+            markers:penType="fountainpen" />
+    </LinearLayout>
+</LinearLayout>

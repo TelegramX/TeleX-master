@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider">#dcdcdc</color><!--
+    <color name="header">#ff54759e</color>-->
+    <color name="header">#009688</color><!--58BCD5-->
+    <color name="primary_dark">#009688</color><!--2C90A9-->
+    <color name="primary_light">#009688</color><!--6ED2E9-->
+
+    <color name="btn_bg">#FF222222</color>
+    <color name="btn_pressed_bg">#FFFFCC00</color>
+    <color name="btn_selected_bg">#FFFFCC00</color>
+    <color name="btn_fg">#FF555555</color>
+    <color name="btn_pressed_fg">#FF555555</color>
+    <color name="btn_selected_fg">#61ffffff</color>
+
+    <drawable name="actionbar_button_bg">#00000000</drawable>
+    <drawable name="actionbar_button_pressed_bg">#60FFFFFF</drawable>
+    <drawable name="actionbar_button_selected_bg">#CCFFCC00</drawable>
+
+
+</resources>

@@ -1,0 +1,1601 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="AppName">Tele X</string>
+    <string name="AppName2">تله ایکس</string>
+    <string name="LanguageName">فارسی</string>
+    <!--signin view-->
+    <string name="AbortPassword">صرف نظر کردن از راه اندازی بازبینی دو مرحله ای</string>
+    <string name="AccessError">خطای دسترسی</string>
+    <string name="AccurateTo">دقیقا به %1$s</string>
+    <string name="ActionAddUser">un1 un2 رو اضافه کرد</string>
+    <string name="ActionAddUserSelf">un1 به گروه برگشت</string>
+    <string name="ActionAddUserSelfMega">un1 به گروه پیوست</string>
+    <string name="ActionAddUserSelfYou">شما به گروه برگشتید</string>
+    <string name="ActionAddUserYou">un1 شما رو اضافه کرد</string>
+    <string name="ActionChangedPhoto">un1 عکس گروه رو عوض کرد</string>
+    <string name="ActionChangedTitle">un1 اسم گروه رو به un2 تغییر داد</string>
+    <string name="ActionChannelChangedPhoto">عکس کانال تغییر یافت</string>
+    <string name="ActionChannelChangedTitle">اسم کانال به un2 تغییر یافت</string>
+    <string name="ActionChannelRemovedPhoto">عکس کانال حذف شد</string>
+    <string name="ActionCreateChannel">کانال ایجاد شد</string>
+    <string name="ActionCreateGroup">un1 گروه را ایجاد کرد</string>
+    <string name="ActionCreateMega">گروه ساخته شد</string>
+    <string name="ActionInviteUser">un1 با لینک دعوت به گروه پیوست.</string>
+    <string name="ActionInviteYou">شما با لینک دعوت به گروه پیوستید.</string>
+    <string name="ActionKickUser">un1 un2 رو پاک کرد</string>
+    <string name="ActionKickUserYou">un1 شما رو پاک کرد</string>
+    <string name="ActionLeftUser">un1 از گروه رفت</string>
+    <string name="ActionMigrateFromGroup">این گروه به سوپرگروه بروز رسانی شد</string>
+    <string name="ActionMigrateFromGroupNotify">%1$s به سوپرگروه بروز رسانی شد</string>
+    <string name="ActionPinnedContact">un1 یک مخاطب سنجاق کرد</string>
+    <string name="ActionPinnedFile">un1 یک فایل سنجاق کرد</string>
+    <string name="ActionPinnedGeo">un1 یک نقشه سنجاق کرد</string>
+    <string name="ActionPinnedGif">un1 یک گیف سنجاق کرد</string>
+    <string name="ActionPinnedMusic">un1 یک آهنگ سنجاق کرد</string>
+    <string name="ActionPinnedNoText">un1 یک پیام سنجاق کرد</string>
+    <string name="ActionPinnedPhoto">un1 یک عکس سنجاق کرد</string>
+    <string name="ActionPinnedSticker">un1 یک استیکر سنجاق کرد</string>
+    <string name="ActionPinnedText">un1 \"%1$s\" سنجاق کرد</string>
+    <string name="ActionPinnedVideo">un1 یک ویدئو سنجاق کرد</string>
+    <string name="ActionPinnedVoice">un1 یک پیام صوتی سنجاق کرد</string>
+    <string name="ActionRemovedPhoto">un1 عکس گروه رو پاک کرد</string>
+    <string name="ActionTakeScreenshoot">un1 یه عکس از صفحه گرفت !</string>
+    <string name="ActionTakeScreenshootYou">شما یه عکس از صفحه گرفتی!</string>
+    <string name="ActionYouAddUser">شما un2 رو اضافه کردی</string>
+    <string name="ActionYouChangedPhoto">شما عکس گروه رو عوض کردی</string>
+    <string name="ActionYouChangedTitle">شما اسم گروه رو به un2 تغییر دادی</string>
+    <string name="ActionYouCreateGroup">شما گروه رو ایجاد کردی</string>
+    <string name="ActionYouKickUser">شما un2 رو پاک کردی</string>
+    <string name="ActionYouLeftUser">شما از گروه رفتی</string>
+    <string name="ActionYouRemovedPhoto">شما عکس گروه رو پاک کردی</string>
+    <string name="Add">اضافه کن</string>
+    <string name="AddCaption">اضافه کردن عنوان...</string>
+    <string name="AddContact">افزودن</string>
+    <string name="AddContactChat">افزودن مخاطب</string>
+    <string name="AddContactTitle">اضافه کردن مخاطب</string>
+    <string name="AddExceptions">استثناها را اضافه کن</string>
+    <string name="AddMember">افزودن عضو</string>
+    <string name="AddRecipient">گیرنده را انتخاب کن</string>
+    <string name="AddShortcut">افزودن میانبر</string>
+    <string name="AddStickers">استیکر اضافه کن</string>
+    <string name="AddStickersInstalled">استیکرهای جدید اضافه شدند</string>
+    <string name="AddStickersNotFound">استیکرها پیدا نشدن</string>
+    <string name="AddToContacts">‫افزودن به مخاطبین</string>
+    <string name="AddToStickers">به استیکرها اضافه کن</string>
+    <string name="AddToTheGroup">افزودن %1$s به گروه؟</string>
+    <string name="AddToTheGroupForwardCount">تعداد پیام های قبلی برای ارسال:</string>
+    <string name="AddToTheGroupTitle">افزودن %1$s به چت %2$s ؟</string>
+    <string name="Alert">هشدار</string>
+    <string name="AllPhotos">همه عکس ها</string>
+    <string name="AllVideo">همه ویدیوها</string>
+    <string name="AllowReadCall">لطفا به تلگرام اجازه دریافت تماس را بدهید تا بتواند به صورت اتوماتیک کد شما را وارد کند.</string>
+    <string name="AllowReadCallAndSms">لطفا به تلگرام اجازه دریافت تماس و پیامک را بدهید تا بتواند به صورت اتوماتیک کد شما را وارد کند.</string>
+    <string name="AllowReadSms">لطفا به تلگرام اجازه دریافت پیامک را بدهید تا بتواند به صورت اتوماتیک کد شما را وارد کند.</string>
+    <string name="AlwaysAllow">همیشه اجازه بده</string>
+    <string name="AlwaysAllowPlaceholder">همیشه اجازه بده...</string>
+    <string name="AlwaysShareWith">همیشه باهاش به اشتراک بذار</string>
+    <string name="AlwaysShareWithPlaceholder">همیشه با اینا به اشتراک بذار</string>
+    <string name="AlwaysShareWithTitle">همیشه به اشتراک بذار</string>
+    <string name="AlwaysShowPopup">همیشه پاپ آپ رو نشون بده</string>
+    <string name="AppNameBeta">Tele X beta</string>
+    <string name="ApplyLocalizationFile">تایید فایل زبان</string>
+    <string name="AreTyping">د حال نوشتن هستن...</string>
+    <string name="AreYouSure">مطمئنی؟</string>
+    <string name="AreYouSureBlockContact">مطمئنی می خوای این مخاطب رو مسدود کنی؟</string>
+    <string name="AreYouSureClearHistory">مطمئنی می خوای تاریخچه رو پاک کنی؟</string>
+    <string name="AreYouSureClearHistoryChannel">همه پیامها و رسانه های کش شده این کانال حذف شوند؟</string>
+    <string name="AreYouSureClearHistorySuper">همه پیامها و رسانه های کش شده این گروه حذف شوند؟</string>
+    <string name="AreYouSureDeleteAndExit">مطمئنی که قصد حذف و ترک این چت رو داری؟</string>
+    <string name="AreYouSureDeleteContact">مطمئنی می خوای این مخاطب را حذف کنی؟</string>
+    <string name="AreYouSureDeleteMessages">مطمئنی می خوای %1$s رو پاک کنی؟</string>
+    <string name="AreYouSureDeletePhoto">مطمئنی می خوای این عکس رو پاک کنی؟</string>
+    <string name="AreYouSureDeleteThisChat">مطمئنی که قصد حذف این گفت و گو رو داری؟</string>
+    <string name="AreYouSureDeleteVideo">مطمئنی می خوای این ویدیو رو پاک کنی؟</string>
+    <string name="AreYouSureRegistration">مطمئنی می خوای عضویتت رو لغو کنی؟</string>
+    <string name="AreYouSureSecretChat">مطمئنی که می خوای یه گفت و گوی مخفیانه شروع کنی؟</string>
+    <string name="AreYouSureSessions">مطمئنی می خوای همه نشست های دیگه رو خاتمه بدی؟</string>
+    <string name="AreYouSureShareMyContactInfo">مطمئنی می خوای شماره تلفنتو ببینن؟</string>
+    <string name="AreYouSureShareMyContactInfoBot">روبات شماره تلفن شما را خواهد دانست. این می تواند برای یکپارچگی با دیگر سرویس ها قابل استفاده باشد.</string>
+    <string name="AreYouSureShareMyContactInfoUser">آیا از اشتراک شماره تلفن خود %1$s با &lt;b>%2$s&lt;/b>اطمینان دارید؟</string>
+    <string name="AreYouSureUnblockContact">مطمئنی می خوای مخاطب رو باز کنی؟</string>
+    <string name="AskAQuestion">یه سوال بپرس</string>
+    <string name="AskAQuestionInfo">لطفا توجه داشته باشید که پشتیبانی تلگرام توسط داوطلبان انجام می شود.ما تلاش می کنیم تا در اسرع وقت پاسخ دهیم،اما ممکن است مدتی طول بکشد..&lt;br>&lt;br>لطفا به اینجا نگاهی بیاندازید. &lt;a href=\"https://telegram.org/faq#general\">Telegram FAQ&lt;/a>:پاسخ بیشتر سوالات در آن موجود است &lt;a href=\"https://telegram.org/faq#troubleshooting\">عیب یابی&lt;/a>.</string>
+    <string name="AskButton">یه داوطلب می خوام</string>
+    <string name="AttachAudio">صدا</string>
+    <string name="AttachBotsHelp">برای رباتها به پایین پیمایش کنید</string>
+    <string name="AttachContact">مخاطب</string>
+    <string name="AttachDocument">فایل</string>
+    <string name="AttachGif">گیف</string>
+    <string name="AttachLocation">مکان</string>
+    <string name="AttachMusic">موسیقی</string>
+    <string name="AttachPhoto">عکس</string>
+    <string name="AttachSticker">استیکر</string>
+    <string name="AttachVideo">ویدیو</string>
+    <string name="AudioTitle">آهنگ مشترک</string>
+    <string name="AudioUnknownArtist">هنرمند ناشناخته</string>
+    <string name="AudioUnknownTitle">عنوان نامشخص</string>
+    <string name="AutoLock">قفل خودکار</string>
+    <string name="AutoLockDisabled">غیرفعال</string>
+    <string name="AutoLockInTime">در %1$s</string>
+    <string name="AutoLockInfo">اگه یه مدتی نبودی گذرواژه بخواد</string>
+    <string name="AutomaticMediaDownload">دانلود خودکار رسانه ها</string>
+    <string name="AutoplayGifs">نمایش خودکار گیف ها</string>
+    <string name="AwaitingEncryption">در انتظار %s تا آنلاین بشه...</string>
+    <string name="BadgeNumber">شماره نشان ها</string>
+    <string name="BlockContact">مسدود کردن</string>
+    <string name="BlockedUsers">کاربران مسدود</string>
+    <string name="Blur">محو</string>
+    <string name="BlurLinear">خطی</string>
+    <string name="BlurOff">خاموش</string>
+    <string name="BlurRadial">شعاعی</string>
+    <string name="Bot">ربات</string>
+    <string name="BotCantJoinGroups">این ربات نمی تواند به گروه ها ملحق شود.</string>
+    <string name="BotHelp">راهنما</string>
+    <string name="BotInfoTitle">این ربات چه کاری میتواند انجام دهد؟</string>
+    <string name="BotInvite">افزودن به گروه</string>
+    <string name="BotRestart">راه اندازی مجدد روبات</string>
+    <string name="BotSettings">تنظیمات</string>
+    <string name="BotShare">اشتراک گذاری</string>
+    <string name="BotStart">شروع</string>
+    <string name="BotStatusCantRead">به پیام ها دسترسی ندارد</string>
+    <string name="BotStatusRead">به پیام ها دسترسی دارد</string>
+    <string name="BotStop">توقف روبات</string>
+    <string name="BotUnblock">راه اندازی مجدد</string>
+    <string name="CacheClear">پاک شود</string>
+    <string name="CacheEmpty">خالی</string>
+    <string name="CacheSettings">تنظیمات حافظه کش</string>
+    <string name="CalculatingSize">در حال محاسبه...</string>
+    <string name="Call">تماس</string>
+    <string name="CallText">%1$d:%2$02d دیگه بهتون زنگ می زنیم</string>
+    <string name="Calling">در حال تماس ...</string>
+    <string name="Cancel">لغو</string>
+    <string name="CancelRegistration">لغو عضویت</string>
+    <string name="Caption">عنوان</string>
+    <string name="ChangePasscode">تغییر گذرواژه</string>
+    <string name="ChangePasscodeInfo">"هنگامی که شما یک رمز عبور اضافی تنظیم می کنید،یک آیکن قفل در بالای صفحه گفتگوها ظاهر خواهد شد.برای قفل کردن یا باز کردن برنامه تلگرام به آن ضربه بزنید.
+
+ توجه:اگر رمز عبور خود را فراموش کنید، شما مجبور می شوید برنامه را پاک کنید و تمامی گفتگوهای محرمانه شما از بین می روند."</string>
+    <string name="ChangePassword">تغییر گذرواژه</string>
+    <string name="ChangePhoneHelp">ما یک پیامک به شماره جدیدتون با کد تاییدیه ارسال می کنیم .</string>
+    <string name="ChangePhoneNewNumber">شماره ی جدید</string>
+    <string name="ChangePhoneNumberOccupied">فعلا شماره %1$s به تلگرامت وصله . لطفا قبل از مهاجرتت به شماره جدیدت اکانت قبلیت رو حذف کن .</string>
+    <string name="ChangePublicLimitReached">متاسفیم، شما بیش از تعداد مجاز لینک عمومی ایجاد کرده اید. لطفا تعدادی از گروه ها یا کانالهای خود را حذف کنید یا آنها را خصوصی کنید.</string>
+    <string name="ChangeRecoveryEmail">تغییر ایمیل بازیابی</string>
+    <string name="ChannelAddAdmin">افزودن مدیر</string>
+    <string name="ChannelAddTo">%1$s به کانال افزوده شود؟</string>
+    <string name="ChannelAddUserAdminAlert">مطمئنید می خواهید %1$s را یک مدیر کانال کنید؟</string>
+    <string name="ChannelAddedBy">un1 شما را به کانال افزود</string>
+    <string name="ChannelAddedByNotification">%1$s شما را به کانال %2$s افزود</string>
+    <string name="ChannelAdministrators">مدیران</string>
+    <string name="ChannelAdminsInfo">شما می توانید برای برای کمک در مدیریت کانالتان مدیر اضافه کنید.برای حذف مدیرها فشار بدهید و نگه دارید.</string>
+    <string name="ChannelAlertCreate">ایجاد کانال</string>
+    <string name="ChannelAlertText">کانال ها ابزار جدیدی برای انتشار پیام های شما برای طیف وسیعی از مخاطبین است.</string>
+    <string name="ChannelAlertTitle">یک کانال چیست؟</string>
+    <string name="ChannelBlockedUsers">کاربران مسدود</string>
+    <string name="ChannelBroadcast">پخش</string>
+    <string name="ChannelCantOpenBanned">متاسفانه شما از شرکت در گروه های عمومی منع شده اید.</string>
+    <string name="ChannelCantOpenNa">متاسفانه این گفتگو دیگر در دسترسی نیست.</string>
+    <string name="ChannelCantOpenPrivate">ببخشید،این کانال دیگر در دسترس نیست.</string>
+    <string name="ChannelCantSendMessage">ببخشید،شما نمی توانید به این کانال پیام ارسال کنید</string>
+    <string name="ChannelCreator">سازنده</string>
+    <string name="ChannelDelete">حذف کانال</string>
+    <string name="ChannelDeleteAlert">صبر کنید!حذف این کانال باعث حذف تمام اعضا و پیام ها خواهد شد.کانال به هر حال حذف شود؟</string>
+    <string name="ChannelDeleteInfo">شما تمام پیام های درون کانال را از دست می دهید.</string>
+    <string name="ChannelDeleteMenu">حذف کانال</string>
+    <string name="ChannelEdit">ویرایش</string>
+    <string name="ChannelEditor">مدیر</string>
+    <string name="ChannelInviteLinkTitle">لینک دعوت</string>
+    <string name="ChannelInviteViaLink">دعوت با لینک</string>
+    <string name="ChannelJoin">پیوستن</string>
+    <string name="ChannelJoinTo">"مطمئنید میخواهید در کانال '%1$s' عضو شوید؟"</string>
+    <string name="ChannelJoined">شما وارد کانال شدید</string>
+    <string name="ChannelLeaveAlert">آیا مطمئنید که میخواهید کانال را ترک کنید؟</string>
+    <string name="ChannelLinkInfo">همه کاربرهای تلگرام می توانند با استفاده از این لینک عضو کانال شما شوند.</string>
+    <string name="ChannelLinkTitle">لینک</string>
+    <string name="ChannelMegaJoined">شما به این گروه پیوستید.</string>
+    <string name="ChannelMembers">اعضا</string>
+    <string name="ChannelMembersInfo">فقط مدیران کانال می توانند این لیست را ببینند.</string>
+    <string name="ChannelMessageAudio">%1$s یک صوت ارسال کرد</string>
+    <string name="ChannelMessageContact">%1$s یک مخاطب ارسال کرد</string>
+    <string name="ChannelMessageDocument">%1$s یک فایل ارسال کرد</string>
+    <string name="ChannelMessageGIF">%1$s یک گیف ارسال کرد</string>
+    <string name="ChannelMessageGroupAudio">%1$s بک صدا به کانال %2$s ارسال کرد</string>
+    <string name="ChannelMessageGroupContact">%1$s یک مخاطب در کانال %2$s به اشتراک گذاشت</string>
+    <string name="ChannelMessageGroupDocument">%1$s یک فایل به کانال %2$s ارسال کرد</string>
+    <string name="ChannelMessageGroupGif">%1$s یک گیف به کانال %2$s ارسال کرد</string>
+    <string name="ChannelMessageGroupMap">%1$s یک مکان به کانال %2$s ارسال کرد</string>
+    <string name="ChannelMessageGroupMusic">%1$s یک آهنگ در کانال %2$s ارسال کرد</string>
+    <string name="ChannelMessageGroupNoText">%1$s یک پیام برای کانال %2$s ارسال کرد</string>
+    <string name="ChannelMessageGroupPhoto">%1$s یک عکس به کانال %2$s ارسال کرد</string>
+    <string name="ChannelMessageGroupSticker">%1$s یک استیکر به کانال %2$s ارسال کرد</string>
+    <string name="ChannelMessageGroupStickerEmoji">%1$s یک استیکر %3$s به کانال %2$s ارسال کرد</string>
+    <string name="ChannelMessageGroupVideo">%1$s یک ویدئو به کانال %2$s ارسال کرد</string>
+    <string name="ChannelMessageMap">%1$s یک مکان ارسال کرد</string>
+    <string name="ChannelMessageMusic">%1$s یک آهنگ ارسال کرد</string>
+    <string name="ChannelMessageNoText">%1$s یک پیام ارسال کرد</string>
+    <string name="ChannelMessagePhoto">%1$s یک عکس ارسال کرد</string>
+    <string name="ChannelMessageSticker">%1$s یک استیکر ارسال کرد</string>
+    <string name="ChannelMessageStickerEmoji">%1$s یک استیکر %2$s ارسال کرد</string>
+    <string name="ChannelMessageVideo">%1$s یک ویدئو ارسال کرد</string>
+    <string name="ChannelModerator">مدیر</string>
+    <string name="ChannelMute">بی صدا</string>
+    <string name="ChannelNotifyMembersInfoOff">کاربران از ارسال مطلب مطلع نمی شوند</string>
+    <string name="ChannelNotifyMembersInfoOn">کاربران از ارسال مطلب مطلع می شوند</string>
+    <string name="ChannelPhotoEditNotification">عکس کانال %1$s به روز شد</string>
+    <string name="ChannelPrivate">کانال خصوصی</string>
+    <string name="ChannelPrivateInfo">عضویت در کانال های خصوصی فقط با لینک های دعوت امکان پذیر است.</string>
+    <string name="ChannelPrivateLinkHelp">افراد می توانند با دنبال کردن لینک وارد کانال شما شوند.شما می تواند هر زمانی لینک را باطل کنید.</string>
+    <string name="ChannelPublic">کانال عمومی</string>
+    <string name="ChannelPublicEmptyUsername">"لطفا یک لینک برای کانال عمومی خود انتخاب کنید;بدین ترتیب افراد می توانند آن را در جستجو بیابند و با دیگران به اشتراک بگذارند.
+
+ اگر تمایلی ندارید ،ما پیشنهاد میکنیم به جای آن یک کانال خصوصی ایجاد کنید."</string>
+    <string name="ChannelPublicInfo">کانال های عمومی در جستجو قابل رویت هستند و هرکسی می تواند عضو آن شود.</string>
+    <string name="ChannelRemoveUser">حذف از کانال</string>
+    <string name="ChannelRemoveUserAdmin">پاک کردن</string>
+    <string name="ChannelSettings">تنظیمات</string>
+    <string name="ChannelSignMessages">امضای پیامها</string>
+    <string name="ChannelSignMessagesInfo">افزودن نام مدیر به پیامهایی که ارسال می کند.</string>
+    <string name="ChannelSilentBroadcast">پخش بی صدا</string>
+    <string name="ChannelType">نوع کانال</string>
+    <string name="ChannelTypePrivate">خصوصی</string>
+    <string name="ChannelTypePublic">عمومی</string>
+    <string name="ChannelUnmute">با صدا</string>
+    <string name="ChannelUserAddLimit">متاسفیم،شما می توانید فقط در ابتدا 200 عضو به یک کانال اضافه کنید.توجه داشته باشید تعداد نامحدودی کاربر می توانند با لینک کانال وارد گروه شوند.</string>
+    <string name="ChannelUserCantAdd">متاسفیم، شما نمی توانید این کاربر را به کانال اضافه کنید.</string>
+    <string name="ChannelUserCantAdmin">متاسفم، مدیران زیادی در این کانال وجود دارند.</string>
+    <string name="ChannelUserCantBot">متاسفیم، رباتهای زیادی در این کانال وجود دارند.</string>
+    <string name="ChannelUserLeftError">متاسفیم،این کاربر تصمیم گرفت این کانال را ترک کند،بنابراین شما نمی توانید دوباره او را اینجا اضافه کنید</string>
+    <string name="ChannelUsernameHelp">افراد می توانند این لینک را با افراد دیگر به اشتراک بگذارند و کانال شما را با استفاده از جستجوی تلگرام بیابند.</string>
+    <string name="ChannelUsernamePlaceholder">لینک</string>
+    <string name="ChatBackground">پس زمینه گفت و گو</string>
+    <string name="ChatCamera">دوربین</string>
+    <string name="ChatDocument">فایل</string>
+    <string name="ChatGallery">گالری</string>
+    <string name="ChatHints">گفتگوها</string>
+    <string name="ChatHintsDelete">حذف %1$s از پیشنهاد شده ها؟</string>
+    <string name="ChatLocation">مکان</string>
+    <string name="ChatVideo">ویدیو</string>
+    <string name="ChooseCountry">یک کشور را انتخاب نمایید</string>
+    <string name="ChromeCustomTabs">مرورگر درون-برنامه</string>
+    <string name="ChromeCustomTabsInfo">لینک های خارجی را درون برنامه باز کن</string>
+    <string name="ClearButton">پاک کردن</string>
+    <string name="ClearHistory">‫پاک کردن تاریخچه</string>
+    <string name="ClearHistoryCache">حذف از حافظه کش</string>
+    <string name="ClearMediaCache">پاک کردن حافظه کش</string>
+    <string name="ClearOtherSessionsHelp">از همه دستگاه ها به جز این خارج شو .</string>
+    <string name="ClearRecentEmoji">حذف آخرین اموجی ها؟</string>
+    <string name="ClearSearch">تاریخچه جستجو پاک بشه؟</string>
+    <string name="Close">بستن</string>
+    <string name="Code">کد</string>
+    <string name="CodeExpired">کد منقضی شده دوباره وارد بشید</string>
+    <string name="CompatibilityChat">%1$s از یک نسخه قدیمی تلگرام استفاده می کنه، برای همین تصاویر سرّی در حالت سازگار نمایش داده میشه . زمانی که %2$s تلگرام رو به روز کنه ، عکس هایی با تایمر 1 دقیقه یا کمتر در حالت \"ضربه بزن و نگه دار تا ببینی\" شروع به کار می کنن، و هر موقع طرف مقابل از صفحه عکس بگیره شما مطلع میشید.</string>
+    <string name="Connecting">در حال اتصال...</string>
+    <string name="ContactJoined">مخاطب وارد تلگرام شد</string>
+    <string name="Contacts">مخاطبین</string>
+    <string name="Contrast">کنتراست</string>
+    <string name="ConvertGroup">تبدیل به سوپرگروه</string>
+    <string name="ConvertGroupAlert">لطفا دقت کنید که این عمل برگشت پذیر نیست. امکان تبدیل سوپرگروه به گروه معمولی وجود ندارد.</string>
+    <string name="ConvertGroupAlertWarning">اخطار</string>
+    <string name="ConvertGroupInfo">"&lt;b>اعضا به تعداد لازم رسید.&lt;/b>
+
+برای اضافه کردن اعضای بیشتر به سوپرگروه ارتقا دهید:
+
+• سوپرگروه ها می توانند تا %1$s عضو داشته باشند
+• اعضای جدید تمام پیامهای قبلی را می بینند
+•پیامهای حذف شده برای همه حدف خواهد شد.
+•مدیران می توانند پیام های مهم را سنجاق کنند.
+•سازنده می تواند برای گروه لینک عمومی ایجاد کند."</string>
+    <string name="ConvertGroupInfo2">"&lt;b>در سوپرگروهها:&lt;/b>
+
+• اعضای جدید می توانند تاریخچه پیامها را مشاهده کنند
+• پیامهای حذف شده برای همه حذف می شوند.
+• مدیران می توانند پیام های مهم را سنجاق کنند.
+• سازنده می تواند برای گروه لینک عمومی ایجاد کند."</string>
+    <string name="ConvertGroupInfo3">&lt;b>توجه:&lt;/b> این عملیات قابل برگشت نیست.</string>
+    <string name="ConvertGroupMenu">تبدیل به سوپرگروه</string>
+    <string name="Copy">کپی</string>
+    <string name="CopyLink">کپی کردن لینک</string>
+    <string name="CreateEncryptedChatError">خطایی رخ داده .</string>
+    <string name="CreateGroupError">متاسفیم. بر اساس تنظیمات حریم خصوصی این کاربران، شما نمی توانید یک گروه با آنها ایجاد کنید.</string>
+    <string name="Crop">بریدن</string>
+    <string name="CropImage">بریدن تصویر</string>
+    <string name="CurrentSession">نشست فعلی</string>
+    <string name="Curves">منحنی</string>
+    <string name="CurvesAll">همه</string>
+    <string name="CurvesBlue">آبی</string>
+    <string name="CurvesGreen">سبز</string>
+    <string name="CurvesRed">قرمز</string>
+    <string name="CustomHelp">شما قادر به مشاهده آخرین زمان و تاریخ افرادی که جزء دوستانتان نیستند ، نخواهید بود و ما زمان تقریبی آنها را در اختیارتان قرار می دهیم ، مانند مثال (به تازگی، در عرض یک هفته ظرف یک ماه)</string>
+    <string name="CustomShareInfo">صرف نظر از تنظیمات بالا، این کاربران می توانند یا نمی توانند شما را به گروه و کانال اضافه کنندٰ.</string>
+    <string name="CustomShareSettingsHelp">این تنظیمات جایگزین مقادیر بالا میشن .</string>
+    <string name="Default">پیش فرض</string>
+    <string name="Delete">حذف</string>
+    <string name="DeleteAccountHelp">اگر شما وارد تلگرام در یک دوره ای نشوید ، تمامی مخاطبین و پیام های شما حذف می گردد</string>
+    <string name="DeleteAccountIfAwayFor">اگر برای این مدت نبودید</string>
+    <string name="DeleteAccountTitle">پاک کننده خودکار حساب کاربری</string>
+    <string name="DeleteAllFrom">پاک کردن همه پیامهای %1$s</string>
+    <string name="DeleteAndExit">حذف و خروج از گروه</string>
+    <string name="DeleteAndStop">حذف و متوقف</string>
+    <string name="DeleteBanUser">ممنوع کردن کاربر</string>
+    <string name="DeleteChat">پاک کن و خارج شو</string>
+    <string name="DeleteChatUser">حذف گفت و گو</string>
+    <string name="DeleteContact">حذف</string>
+    <string name="DeleteGif">حذف گیف؟</string>
+    <string name="DeleteLocalization">فایل زبان پاک بشه؟</string>
+    <string name="DeleteMega">حذف گروه</string>
+    <string name="DeleteMegaMenu">حذف گروه</string>
+    <string name="DeletePhoto">عکسو پاک کن</string>
+    <string name="DeleteReportSpam">گزارش اسپم</string>
+    <string name="DeleteThisChat">این گفت و گو رو پاک کن</string>
+    <string name="DeleteThisGroup">این گروه رو پاک کن</string>
+    <string name="DescriptionInfo">شما می توانید یک توضیح دلخواه برای کانال خود ارایه کنید.</string>
+    <string name="DescriptionOptionalPlaceholder">توضیحات (اختیاری)</string>
+    <string name="DescriptionPlaceholder">توضیحات</string>
+    <string name="DidNotGetTheCode">کد ارسال شده را دریافت نکرده اید ؟!</string>
+    <string name="DirectShare">فوروارد چندگانه</string>
+    <string name="DirectShareInfo">آخرین گفتگوها را در فهرست نمایش بده</string>
+    <string name="DiscardChanges">لغو تغییرات ؟</string>
+    <string name="DocumentsTitle">فایل ها</string>
+    <string name="Done">تایید</string>
+    <string name="Edit">ویرایش</string>
+    <string name="EditContact">ویرایش</string>
+    <string name="EditMessageError">متاسفیم، شما نمی توانید این پیام را ویرایش کنید.</string>
+    <string name="EditName">ویرایش نام</string>
+    <string name="EditedMessage">ویرایش شده</string>
+    <string name="EmailPasswordConfirmText">"لطفا برای تنظیم تایید دو مرحله ای مراحل زیر رو انجام بدین:
+
+1. ایمیلتون رو چک کنید(پوشه هرزنامه رو یادتون نره)
+%1$s
+
+2. روی لینک فعال سازی کلیک کنید."</string>
+    <string name="EmpryUsersPlaceholder">اضافه کردن کاربران</string>
+    <string name="otherAccounts">حساب های دیگر</string>
+    <string name="EnableAnimations">فعال سازی پویانمایی</string>
+    <string name="EnabledPasswordText">"شما تایید دو مرحله ای را فعال کردید.
+برای ورود به حساب تلگرامتان به این رمز نیاز خواهید داشت."</string>
+    <string name="EncryptedChatStartedIncoming">شما وارد گفت و گوی مخفیانه شدید .</string>
+    <string name="EncryptedChatStartedOutgoing">%s وارد گفت و گوی مخفیانه شما شد.</string>
+    <string name="EncryptedDescription1">از رمزنگاری آخر به آخر استفاده کن</string>
+    <string name="EncryptedDescription2">هیچ ردی رو سرورهای ما نذار بمونه</string>
+    <string name="EncryptedDescription3">تایمر از بین برنده خودکار باشه</string>
+    <string name="EncryptedDescription4">اجازه نده کسی پیاماتو منتقل کنه</string>
+    <string name="EncryptedDescriptionTitle">گفت و گوی مخفیانه:</string>
+    <string name="EncryptedPlaceholderTitleIncoming">%s شما رو به یک گفت و گوی مخفیانه دعوت کرده</string>
+    <string name="EncryptedPlaceholderTitleOutgoing">شما %s رو به یک گفت و گوی مخفیانه دعوت کردید</string>
+    <string name="EncryptionKey">کلید رمزنگاری</string>
+    <string name="EncryptionKeyDescription">این تصویر و متن از مشتق شده اند از کلید رمزنگاری برای گفت و گوی مخفیانه با &lt;b>]] %1$s&lt;![CDATA[&lt;/b>.&lt;br>&lt;br>اگه آنها شبیه &lt;b>%2$s&lt;/b> هستند رمزگذاری انتها به انتها تضمین شده است!&lt;br>&lt;br>اطلاعات بیشتر در telegram.org</string>
+    <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
+    <string name="EncryptionProcessing">تبادل کلید های رمزنگاری ...</string>
+    <string name="EncryptionRejected">بی خیال گفت و گوی مخفیانه شدید</string>
+    <string name="Enhance">بالا بردن</string>
+    <string name="EnterChannelName">نام کانال</string>
+    <string name="EnterCurrentPasscode">گذواژه فعلی رو وارد کن</string>
+    <string name="EnterGroupNamePlaceholder">نام گروه رو وارد کن</string>
+    <string name="EnterListName">نام لیست رو وارد کن</string>
+    <string name="EnterNewFirstPasscode">یه گذرواژه وارد کن</string>
+    <string name="EnterNewPasscode">گذرواژه جدید رو وارد کن</string>
+    <string name="EnterYourPasscode">گذرواژه خودت رو وارد کن</string>
+    <string name="ErrorOccurred">خطایی رخ داده</string>
+    <string name="Events">رویدادها</string>
+    <string name="Exposure">آشکاری</string>
+    <string name="ExternalStorage">حافظه خارجی</string>
+    <string name="Fade">محو شدن</string>
+    <string name="FeatureUnavailable">متاسفیم، این امکان در حال حاضر در کشور شما در دسترس نیست.</string>
+    <string name="FileUploadLimit">حجم فایل نباید بیشتر از %1$s باشه</string>
+    <string name="FingerprintHelp">سنسور را لمس کنید</string>
+    <string name="FingerprintInfo">برای ادامه اثر انگشت را تایید کنید</string>
+    <string name="FingerprintNotRecognized">اثر انگشت شناسایی نشد. دوباره تلاش کنید</string>
+    <string name="FirstName">نام ( الزامی)</string>
+
+    <string name="FloodWait">بیش از اندازه تلاش کردی، لطفا چند لحظه دیگه دوباره تلاش کن</string>
+    <string name="FloodWaitTime">تعداد تلاش‌های شما بیش از اندازه است، لطفا بعد از %1$s دوباره سعی کنید.</string>
+    <string name="Folder">‫پوشه</string>
+    <string name="ForgotPassword">گذرواژه رو یادت رفته؟</string>
+    <string name="Forward">فوروارد</string>
+    <string name="ForwardedMessage">پیام فرستاده شده</string>
+    <string name="FreeOfTotal">%1$s آزاد از %2$s</string>
+    <string name="From">از</string>
+    <string name="FromCamera">از دوربین موبایل</string>
+    <string name="FromGalley">از گالری</string>
+    <string name="FromYou">شما</string>
+    <string name="Gallery">گالری</string>
+    <string name="GalleryInfo">ارسال عکس بدون فشرده سازی</string>
+    <string name="GettingLinkInfo">اطلاعات لینک ....</string>
+    <string name="GlobalSearch">جستجوی همگانی</string>
+    <string name="GotAQuestion">در مورد تلگرام سوال دارید؟</string>
+    <string name="Grain">دانه</string>
+    <string name="GroupName">نام گروه</string>
+    <string name="GroupNotifications">اعلان های گروه</string>
+    <string name="GroupType">نوع گروه</string>
+    <string name="GroupUserAddLimit">متاسفیم، این گروه پر است.</string>
+    <string name="GroupUserCantAdd">متاسفیم، شما نمی توانید این کاربر را به گروه ها اضافه کنید.</string>
+    <string name="GroupUserCantAdmin">متاسفیم، تعداد مدیران بیش از حد مجاز است.</string>
+    <string name="GroupUserCantBot">متاسفیم، تعداد رباتهای این گروه بیش از حد مجاز است.</string>
+    <string name="GroupUserLeftError">متاسفیم،این کاربر تصمیم گرفت این گروه را ترک کند،بنابراین شما نمی توانید دوباره او را اینجا اضافه کنید</string>
+    <string name="GroupsAndChannels">گروه ها</string>
+    <string name="GroupsAndChannelsHelp">اینکه چه کسی می تواند شما را به گروه یا کانال اضافه کند را تغییر دهید.</string>
+    <string name="Hashtags">هشتگ</string>
+    <string name="HiddenName">کاربری پاک شده</string>
+    <string name="Highlights">برجسته‌ها</string>
+    <string name="HistoryCleared">تاریخچه پاک شد</string>
+    <string name="Hybrid">هیبرید</string>
+    <string name="ImportContacts">مخاطب ها رو اضافه کن</string>
+    <string name="InAppNotifications">اعلان های نرم افزار</string>
+    <string name="InAppPreview">پیش نمایش داخل برنامه</string>
+    <string name="InAppSounds">صداهای داخل برنامه</string>
+    <string name="InAppVibrate">لرزش داخل برنامه</string>
+    <string name="InChatSound">صداهای داخل چت</string>
+    <string name="IncorrectLocalization">فایل زبان اشتباهه</string>
+    <string name="Info">اطلاعات</string>
+    <string name="InternalStorage">حافظه داخلی</string>
+    <string name="InvalidCode">کد نامعتبره</string>
+    <string name="InvalidFirstName">نام نامعتبره</string>
+    <string name="InvalidLastName">نام خانوادگی نامعتبره</string>
+    <string name="InvalidPhoneNumber">شماره تلفن همراه اشتباهه</string>
+    <string name="Invisible">مخفی</string>
+    <string name="InviteFriends">دعوت دوستان به تله ایکس</string>
+    <string name="CopyPortionOfText">کپی قسمتی از متن</string>
+    <string name="CopyAllText">کپی تمام متن</string>
+    <string name="InviteLink">لینک دعوت</string>
+
+    <string name="InviteToChannelError">متاسفیم، بر اساس تنظیمات حریم خصوصی این کاربر، شما نمی توانید او را به کانال ها اضافه کنید.</string>
+    <string name="InviteToGroupByLink">دعوت به گروه با لینک</string>
+    <string name="InviteToGroupError">متاسفیم، بر اساس تنظیمات حریم خصوصی این کاربر، شما نمی توانید او را به گروه ها اضافه کنید.</string>
+    <string name="InviteUser">این کاربر هنوز تلگرام نداره! می خوای دعوتش کنی؟</string>
+    <string name="IsRecordingAudio">%1$s در حال ضبط صدا...</string>
+    <string name="IsSendingFile">%1$s در حال فرستادن فایل...</string>
+    <string name="IsSendingPhoto">%1$s در حال فرستادن عکس...</string>
+    <string name="IsSendingVideo">%1$s در حال فرستادن ویدئو...</string>
+    <string name="IsTyping">در حال نوشتن...</string>
+    <string name="JoinToGroup">"آیا می خواهید به گفتگوی '%1$s' بپیوندید؟"</string>
+    <string name="JoinToGroupErrorFull">ببخشید ظرفیت گروه تکمیله</string>
+    <string name="JoinToGroupErrorNotExist">متاسفیم،به نظر می رسد این گفتگو دیگر وجود ندارد</string>
+    <string name="KMetersAway">کیلومتر فاصله</string>
+    <string name="KeepMedia">نگهداری رسانه ها</string>
+    <string name="KeepMediaForever">همیشگی</string>
+    <string name="KeepMediaInfo">"تصاویر، ویدئوها و فایل های دیگر از چت های ابری که شما در طول این دوره به آنها دسترسی نداشتید از این دستگاه جهت آزادسازی فضای حافظه داخلی پاک خواهند شد.
+
+همه فایل های رسانه در فضای ابری تلگرام باقی می مانند و شما می توانید آنها را در صورت نیاز دانلود کنید."</string>
+    <string name="KickFromBroadcast">از لیست سخن‌پراکنی حذف کن</string>
+    <string name="KickFromGroup">حذف از گروه</string>
+    <string name="Language">زبان</string>
+    <string name="ChangeLanguage">Change Language</string>
+    <string name="LastName">نام خانوادگی (الزامی)</string>
+    <string name="LastSeen">آخرین بازدید</string>
+    <string name="LastSeenContacts">مخاطبهای من</string>
+    <string name="LastSeenContactsMinus">مخاطبهای من (-%1$d)</string>
+    <string name="LastSeenContactsMinusPlus">مخاطبهای من (-%1$d, +%2$d)</string>
+    <string name="LastSeenContactsPlus">مخاطبهای من (+%1$d)</string>
+    <string name="LastSeenDate">آخرین بازدید</string>
+    <string name="LastSeenEverybody">همه</string>
+    <string name="LastSeenEverybodyMinus">همه (-%1$d)</string>
+    <string name="LastSeenNobody">هیچ کس</string>
+    <string name="LastSeenNobodyPlus">هیچ کس (+%1$d)</string>
+    <string name="LastSeenTitle">چه کسی می تونه آخرین زمان بازدید شما را ببینه؟</string>
+    <string name="Lately">آخرین بازدید اخیرا</string>
+    <string name="LeaveChannel">رفتن از کانال</string>
+    <string name="LeaveChannelMenu">ترک کانال</string>
+    <string name="LeaveMegaMenu">ترک گروه</string>
+    <string name="LedColor">رنگ ال ای دی</string>
+    <string name="LedDisabled">غیرفعال</string>
+    <string name="LinkAvailable">%1$s موجوده.</string>
+    <string name="LinkChecking">در حال بررسی نام…</string>
+    <string name="LinkCopied">لینک در حافظه ذخیره شد</string>
+    <string name="LinkInUse">ببخشید،این نام قبلا انتخاب شده.</string>
+    <string name="LinkInfo">هر کسی که تلگرام را نصب کرده است قادر خواهد بود با دنبال کردن این لینک به گروه شما بپیوندد</string>
+    <string name="LinkInvalid">ببخشید،این نام معتبر نیست.</string>
+    <string name="LinkInvalidLong">اسم کانال نباید از 32 کاراکتر بیشتر باشه.</string>
+    <string name="LinkInvalidShort">اسم کانال باید حداقل 5 کاراکتر باشه.</string>
+    <string name="LinkInvalidShortMega">نام گروه حداقل باید 5 حرف باشد.</string>
+    <string name="LinkInvalidStartNumber">اسم کانال نمی تواند با عدد شروع شود.</string>
+    <string name="LinkInvalidStartNumberMega">نام گروه نمی تواند با عدد شروع شود.</string>
+    <string name="LinkPreview">پیش نمایش لینک</string>
+    <string name="LinksTitle">لینکهای مشترک</string>
+    <string name="Loading">در حال بارگذاری....</string>
+    <string name="LocalAudioCache">پیامهای صوتی</string>
+    <string name="LocalCache">فایلهای دیگر</string>
+    <string name="LocalDatabase">دیتابیس محلی</string>
+    <string name="LocalDatabaseClear">پیامهای متنی کش شده پاک شوند؟</string>
+    <string name="LocalDatabaseInfo">"پاک کردن دیتابیس محلی، متن پیامهای موجود در حافظه کش را حذف خواهد کرد و دیتابیس را جهت آزاد کردن حافظه داخلی فشرده سازی می کند. تلگرام برای کار نیاز به اندکی داده دارد، پس هرگز اندازه دیتابیس به صفر نمی رسد.
+
+این عملیات ممکن است چند دقیقه به طول انجامد"</string>
+    <string name="LocalDocumentCache">فایلها</string>
+    <string name="LocalMusicCache">آهنگ</string>
+    <string name="LocalPhotoCache">تصاویر</string>
+    <string name="LocalVideoCache">ویدئو ها</string>
+    <string name="LogOut">خروج</string>
+    <string name="LoginPassword">گذرواژه</string>
+    <string name="LoginPasswordText">شما بازبینی دو مرحله‌ای را فعال کرده‌اید، در نتیجه حساب شما با یک گذرواژه‌ی اضافه محافظت می‌شود.</string>
+    <string name="Long">بلند</string>
+    <string name="Map">نقشه</string>
+    <string name="MegaAddedBy">un1 شما را به این گروه اضافه کرد</string>
+    <string name="MegaAdminsInfo">شما می توانید مدیران جدید اضافه کنید تا به شما در مدیریت گروه کمک کنند. برای حذف آنها روی آنها ضربه بزنید و نگه دارید.</string>
+    <string name="MegaDeleteAlert">صبر کنید! با حذف این گروه تمام اعضا و پیامهای آن از دست می روند. در هر حال گروه حذف شود؟</string>
+    <string name="MegaDeleteInfo">شما تمام پیامهای این گروه را از دست خواهید داد.</string>
+    <string name="MegaLeaveAlert">آیا که میخواهید گروه را ترک کنید؟</string>
+    <string name="MegaPrivate">گروه خصوصی</string>
+    <string name="MegaPrivateInfo">امکان عضویت در گروه های خصوصی فقط از طریق دعوت دیگران یا لینک دعوت امکانپذیر است.</string>
+    <string name="MegaPrivateLinkHelp">دیگران می توانند با دنبال کردن این لینک به گروه شما بپیوندند. شما می توانید هر زمان که خواستید لینک را ابطال کنید.</string>
+    <string name="MegaPublic">گروه عمومی</string>
+    <string name="MegaPublicInfo">گروه های عمومی می توانند از طریق جستجو یافته شوند. تاریخچه گفتگو برای هر کسی در دسترس است و هر شخصی می تواند عضو آن شود.</string>
+    <string name="MegaUsernameHelp">دیگران می توانند این لینک را به اشتراک بگذارند و با استفاده از جستجو گروه شما را بیابند.</string>
+    <string name="MembersCount">%1$d/%2$d عضو</string>
+    <string name="Message">پیام</string>
+    <string name="MessageLifetime">تایمر خود تخریبی</string>
+    <string name="MessageLifetimeChanged">%1$s زمان تایمر رو %2$s گذاشته</string>
+    <string name="MessageLifetimeChangedOutgoing">شما زمان تایمر رو %1$s گذاشتی</string>
+    <string name="MessageLifetimeRemoved">%1$s تایمر رو خاموش کرد</string>
+    <string name="MessageLifetimeYouRemoved">شما تایمر رو خاموش کردی</string>
+    <string name="MessageNotifications">اعلانات پیام</string>
+    <string name="MessagePreview">پیش نمایش پیام</string>
+    <string name="MessagesSettings">پیام ها</string>
+    <string name="MetersAway">متر فاصله</string>
+    <string name="MoreInfo">اطلاعات بیشتر</string>
+    <string name="MuteDisable">غیرفعال</string>
+    <string name="MuteFor">برای %1$s بی صدا کن</string>
+    <string name="MuteNotifications">اعلانات را بیصدا کن</string>
+    <string name="NearbyPlaces">یا یه مکان رو انتخاب کن</string>
+    <string name="NeverAllow">هرگز اجازه نده</string>
+    <string name="NeverAllowPlaceholder">هرگز اجازه نده...</string>
+    <string name="NeverShareWith">هیچ وقت باهاش اشتراک نذار</string>
+    <string name="NeverShareWithPlaceholder">هیچ وقت با این کاربران به اشتراک نذار</string>
+    <string name="NeverShareWithTitle">هرگز به اشتراک نذار</string>
+    <string name="NewBroadcastList">لیست سخن‌پراکنی جدید</string>
+    <string name="NewChannel">کانال جدید</string>
+    <string name="NewGroup">گروه جدید</string>
+    <string name="NewMessageTitle">پیام جدید</string>
+    <string name="NewSecretChat">گفت و گوی مخفیانه جدید</string>
+    <string name="NoAudio">لطفا فایل ها را به کتابخانه موسیقی دستگاه خود اضافه کنید تا بتوانید آنها را اینجا مشاهده کنید</string>
+    <string name="NoBlocked">هنوز هیچ کاربر مسدودی وجود ندارد</string>
+    <string name="NoBlockedGroup">کاربران مسدود شده از گروه حذف شده اند و فقط با دعوت مدیر می توانند به گروه برگردند. لینک های دعوت برای آنها کار نمی کند.</string>
+    <string name="NoChats">هنوز هیچ گفت و گویی نیست</string>
+    <string name="NoChatsHelp">"‫با فشردن دکمه‌ی ارسال
+ در گوشه‌ی پایین
+ پیام رسانی را آغاز کنید
+ یا برای انتخاب‌های بیش‌تر
+ دکمه‌ی فهرست را بزنید."</string>
+    <string name="NoContacts">هیچ مخاطبی وجود نداره</string>
+    <string name="NoFiles">هنوز هیچ فایلی وجود ندارد...</string>
+    <string name="NoHandleAppInstalled">"شما هیچ برنامه برای باز کردن نوع فایل '%1$s', نداری . برای ادامه باید یکی نصب کنی"</string>
+    <string name="NoMailInstalled">لطفا یه ایمیل به sms@stel.com ارسال کن و مشکلتو توضیح بده</string>
+    <string name="NoMedia">عکس ها و فیلم ها در این گفتگو را به اشتراک بگذارید و به آنها در هر یک از دستگاه های خود دسترسی داشته باشید.</string>
+    <string name="NoMediaAutoDownload">رسانه ای نیست</string>
+    <string name="NoMediaSecret">تصاویر و ویدئوهای این گفتگو اینجا نمایش داده خواهند شد.</string>
+    <string name="NoMessages">هنوز هیچ پیامی نیست...</string>
+    <string name="NoOtherSessions">هیچ نشست فعال دیگری نیست</string>
+    <string name="NoOtherSessionsInfo">شما می توانید با استفاده از همان شماره تلفن از طریق تلفن همراه ،تبلت یا ابزارهای رومیزی وارد تلگرام شوید.تمام اطلاعات شما بلافاصله همگام سازی خواهد شد.</string>
+    <string name="NoPhotos">هنوز هیچ عکسی نیست</string>
+    <string name="NoPlayerInstalled">شما هیچ برنامه ای برای پخش فیلم ندارید لطفا یکی نصب کنید و بعد ادامه دهید .</string>
+    <string name="NoPopup">بدون پاپ آپ</string>
+    <string name="NoRecent">هیچ مورد اخیری وجود نداره</string>
+    <string name="NoRecentGIFs">تصویر متحرک جدیدی وجود ندارد</string>
+    <string name="NoRecentPhotos">تصویر جدیدی وجود ندارد</string>
+    <string name="NoResult">هیچ نتیجه ای پیدا نشد.</string>
+    <string name="NoSharedAudio">آهنگ را در این گفتگو به اشتراک بگذارید و از روی همه دستگاههایتان به آن دسترسی داشته باشید.</string>
+    <string name="NoSharedAudioSecret">آهنگ های این گفتگو اینجا نمایش داده خواهند شد.</string>
+    <string name="NoSharedFiles">فایل ها و اسناد در این چت را به اشتراک بگذارید و به آنها در هر یک از دستگاه های خود دسترسی داشته باشید.</string>
+    <string name="NoSharedFilesSecret">فایلها و اسناد این گفتگو اینجا نمایش داده خواهند شد.</string>
+    <string name="NoSharedLinks">لینکهای در این چت را به اشتراک بگذارید و به آنها در هر یک از دستگاه های خود دسترسی داشته باشید.</string>
+    <string name="NoSharedLinksSecret">لینکهای به اشتراک گذاشته شده این گفتگو اینجا نمایش داده خواهند شد.</string>
+    <string name="NoSound">بدون صدا</string>
+    <string name="NoStickers">هیچ استیکری وجود نداره</string>
+    <string name="NoUsernameFound">هیچ حساب تلگرامی با این نام کاربری وجود ندارد.</string>
+    <string name="NoVideo">هنوز هیچ ویدیویی وجود نداره</string>
+    <string name="NobodyLikesSpam1">ببخشید،شما در حال حاضر فقط میتوانید به مخاطبین خود پیام بفرستید.</string>
+    <string name="NobodyLikesSpam2">ببخشید،شما در حال حاضر فقط میتوانید مخاطبین خود را به گروه اضافه کنید</string>
+    <string name="NotMounted">کارت حافظه نصب نشده</string>
+    <string name="NotificationActionPinnedContact">%1$s یک مخاطب در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedContactChannel">%1$s یک مخاطب سنجاق کرد</string>
+    <string name="NotificationActionPinnedFile">%1$s یک فایل در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedFileChannel">%1$s یک فایل سنجاق کرد</string>
+    <string name="NotificationActionPinnedGeo">%1$s یک نقشه در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedGeoChannel">%1$s یک نقشه سنجاق کرد</string>
+    <string name="NotificationActionPinnedGif">%1$s یک گیف در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedGifChannel">%1$s یک گیف سنجاق کرد</string>
+    <string name="NotificationActionPinnedMusic">%1$s یک آهنگ در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedMusicChannel">%1$s یک آهنگ سنجاق کرد</string>
+    <string name="NotificationActionPinnedNoText">%1$s یک پیام در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedNoTextChannel">%1$s یک پیام سنجاق کرد</string>
+    <string name="NotificationActionPinnedPhoto">%1$s یک عکس در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedPhotoChannel">%1$s یک عکس سنجاق کرد</string>
+    <string name="NotificationActionPinnedSticker">%1$s یک استیکر در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedStickerChannel">%1$s یک استیکر سنجاق کرد</string>
+    <string name="NotificationActionPinnedStickerEmoji">%1$s یک استیکر %3$s در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedStickerEmojiChannel">%1$s یک استیکر %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedText">%1$s سنجاق کرد \"%2$s\" در گروه %3$s</string>
+    <string name="NotificationActionPinnedTextChannel">%1$s سنجاق کرد \"%2$s\"</string>
+    <string name="NotificationActionPinnedVideo">%1$s یک ویدئو در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedVideoChannel">%1$s یک ویدئو سنجاق کرد</string>
+    <string name="NotificationActionPinnedVoice">%1$s یک پیام صوتی در گروه %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedVoiceChannel">%1$s یک پیام صوتی سنجاق کرد</string>
+    <string name="NotificationContactJoined">%1$s وارد تلگرام شد !</string>
+    <string name="NotificationContactNewPhoto">%1$s عکس پروفایلشو عوض کرد</string>
+    <string name="NotificationEditedGroupName">%1$s اسم گروه %2$s رو تغییر داد</string>
+    <string name="NotificationEditedGroupPhoto">%1$s عکس گروه %2$s رو تغییر داد</string>
+    <string name="NotificationGroupAddMember">%1$s %3$s رو به گروه %2$s دعوت کرد</string>
+    <string name="NotificationGroupAddSelf">%1$s به گروه %2$s برگشت</string>
+    <string name="NotificationGroupAddSelfMega">%1$s به گروه %2$s پیوست</string>
+    <string name="NotificationGroupKickMember">%1$s %3$s رو از گروه %2$s حذف کرد</string>
+    <string name="NotificationGroupKickYou">%1$s شما رو از گروه %2$s حذف کرد</string>
+    <string name="NotificationGroupLeftMember">%1$s از گروه %2$s رفت</string>
+    <string name="NotificationInvitedToGroup">%1$s شما رو به گروه %2$s دعوت کرد</string>
+    <string name="NotificationInvitedToGroupByLink">%1$s با لینک دعوت به گروه %2$s ملحق شد</string>
+    <string name="NotificationMessageAudio">%1$s برات یه صدا فرستاده</string>
+    <string name="NotificationMessageContact">%1$s یه مخاطب رو با شما به اشتراک گذاشته</string>
+    <string name="NotificationMessageDocument">%1$s یک فایل برای شما ارسال کرد</string>
+    <string name="NotificationMessageGif">%1$s یک گیف برای شما ارسال کرد</string>
+    <string name="NotificationMessageGroupAudio">%1$s یک صدا برای گروه %2$s ارسال کرد</string>
+    <string name="NotificationMessageGroupContact">%1$s یک مخاطب برای گروه %2$s به اشتراک گذاشت</string>
+    <string name="NotificationMessageGroupDocument">%1$s یک فایل به گروه %2$s ارسال کرد</string>
+    <string name="NotificationMessageGroupGif">%1$s یک گیف به گروه %2$s ارسال کرد</string>
+    <string name="NotificationMessageGroupMap">%1$s یک مکان برای گروه %2$s ارسال کرد</string>
+    <string name="NotificationMessageGroupMusic">%1$s یک آهنگ در گروه %2$s ارسال کرد</string>
+    <string name="NotificationMessageGroupNoText">%1$s یک پیام برای گروه %2$s ارسال کرد</string>
+    <string name="NotificationMessageGroupPhoto">%1$s یک عکس برای گروه %2$s ارسال کرد</string>
+    <string name="NotificationMessageGroupSticker">%1$s یک استیکر به گروه %2$s ارسال کرد</string>
+    <string name="NotificationMessageGroupStickerEmoji">%1$s یک استیکر %3$s به گروه %2$s ارسال کرد</string>
+    <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
+    <string name="NotificationMessageGroupVideo">%1$s یک ویدیو برای گروه %2$s ارسال کرد</string>
+    <string name="NotificationMessageMap">%1$s یک مکان برای شما ارسال کرد</string>
+    <string name="NotificationMessageMusic">%1$s یک آهنگ برای شما ارسال کرد</string>
+    <string name="NotificationMessageNoText">%1$s یک پیام برای شما ارسال کرد</string>
+    <string name="NotificationMessagePhoto">%1$s یک عکس برای شما ارسال کرد</string>
+    <string name="NotificationMessageSticker">%1$s یک استیکر برای شما ارسال کرد</string>
+    <string name="NotificationMessageStickerEmoji">%1$s یک استیکر %2$s ارسال کرد</string>
+    <string name="NotificationMessageText">%1$s: %2$s</string>
+    <string name="NotificationMessageVideo">%1$s یک ویدئو برای شما ارسال کرد</string>
+    <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
+    <string name="NotificationUnrecognizedDevice">"%1$s,
+ ما یک ورود به اکانت شما را از دستگاه دیگری در %2$s شناسایی کردیم.
+
+ دستگاه: %3$sموقعیت: %4$s
+
+If اگر این شما نیستید، میتوانید با رفتن به تنظیمات - حریم خصوصی و امنیت - نشست ها بروید به آن نشست پایان دهید.
+
+ اگر شما فکر میکنید که شخص دیگری به حساب شما وارد شده است و بر علیه شما میباشد، میتوانید تایید دو مرحله ای را از تنظیمات - حریم خصوصی و امنیت فعال کنید. n
+با احترام،
+ تیم تلگرام"</string>
+    <string name="Notifications">اعلان ها</string>
+    <string name="NotificationsAndSounds">اعلان ها و صداها</string>
+    <string name="NotificationsOther">سایر</string>
+    <string name="NotificationsPriority">اولویت</string>
+    <string name="NotificationsPriorityDefault">پیش فرض</string>
+    <string name="NotificationsPriorityHigh">زیاد</string>
+    <string name="NotificationsPriorityMax">حداکثر</string>
+    <string name="NotificationsService">سرویس اعلان ها</string>
+    <string name="NumberUnknown">نامعلوم</string>
+    <string name="OK">تایید</string>
+    <string name="Of">%1$d از %2$d</string>
+    <string name="Online">آنلاین</string>
+    <string name="OnlyIfSilent">فقط اگر بی صدا بود</string>
+    <string name="OnlyWhenScreenOff">فقط وقتی صفحه خاموش است</string>
+    <string name="OnlyWhenScreenOn">فقط وقتی صفحه روشن است</string>
+    <string name="Open">باز کردن</string>
+    <string name="OpenInBrowser">باز کردن در...</string>
+    <string name="OpenUrlAlert">لینک %1$s باز شود؟</string>
+    <string name="OtherSessions">نشست های فعال</string>
+    <string name="Page1Message">&lt;b>سریع ترین&lt;/b> برنامه پیام رسان جهان .&lt;br/> &lt;b>رایگان&lt;/b> و &lt;b>امن&lt;/b></string>
+    <string name="Page1Title">تله ایکس</string>
+    <string name="Page2Message">&lt;b>تله ایکس&lt;/b> خیلی سریع تر از &lt;br/>هر برنامه ای پیام ارسال می کند</string>
+    <string name="Page2Title">سریع</string>
+    <string name="Page3Message">&lt;b>تله ایکس&lt;/b> برای همیشه رایگان است و تبلیغی ندارد&lt;br/>هیچ هزینه اشتراکی نمی خواهد</string>
+    <string name="Page3Title">رایگان</string>
+    <string name="Page4Message">&lt;b>تله ایکس&lt;/b> پیام های شما رو &lt;br/>از حمله هکرها حفظ می کند</string>
+    <string name="Page4Title">امن</string>
+    <string name="Page5Message">&lt;b>تله ایکس&lt;/b> هیچ محدودیتی برای &lt;br/>حجم فایل ها و گفت و گو ها ندارد</string>
+    <string name="Page5Title">قدرتمند</string>
+    <string name="Page6Message">&lt;b>تله ایکس&lt;/b>به شما اجازه میدهد که&lt;br/>با دستگاه های مختلف به پیامهاتون دسترسی داشته باشید.</string>
+    <string name="Page6Title">بر پایه ابری</string>
+    <string name="Page7Message">&lt;b>تله ایکس&lt;/b> پیام ها رو &lt;br/>رمز نگاری می کند و شما می توانید آنها رو از بین ببرید</string>
+    <string name="Page7Title">خصوصی</string>
+    <string name="Passcode">قفل با گذرواژه</string>
+    <string name="PasscodeDoNotMatch">گذرواژه ها با هم یکی نیستن</string>
+    <string name="PasscodePIN">کد پین</string>
+    <string name="PasscodePassword">گذرواژه</string>
+    <string name="PasswordAsHintError">راهنما باید با گذرواژه شما متفاوت باشد</string>
+    <string name="PasswordCode">کد</string>
+    <string name="PasswordDoNotMatch">گذرواژه‌ها یکی نیستن</string>
+    <string name="PasswordEmailInvalid">ایمیل اشتباهه</string>
+    <string name="PasswordHint">راهنمای گذرواژه</string>
+    <string name="PasswordHintText">یه راهنما برای گذرواژه خود بذارید.</string>
+    <string name="PasswordRecovery">بازیابی گذرواژه</string>
+    <string name="PasswordReset">گذرواژه غیرفعال شد.</string>
+    <string name="PendingEmailText">ایمیل بازیابی شما %1$s هنوز فعال نشده و در انتظار تایید است.</string>
+    <string name="PermissionContacts">تلگرام نیاز به دسترسی به مخاطبین شما را دارد تا شما بتوانید به مخاطبین خود در تمامی دستگاههایتان در تماس باشید.</string>
+    <string name="PermissionNoAudio">تلگرام نیاز به دسترسی به میکروفون دستگاه را دارد تا شما بتوانید پیامهای صوتی ارسال کنید.</string>
+    <string name="PermissionNoLocation">تلگرام نیاز به دسترسی به مکان شما را دارد تا شما بتوانید موقعیت خود را با دوستانتان به اشتراک بگذارید.</string>
+    <string name="PermissionOpenSettings">تنظیمات</string>
+    <string name="PermissionStorage">تلگرام نیاز به دسترسی به حافظه دستگاه را دارد تا شما بتوانید عکس، ویدئو، آهنگ و دیگر رسانه ها را دریافت و ارسال کنید.</string>
+    <string name="Phone">تلفن</string>
+    <string name="PhoneHome">خونه</string>
+    <string name="PhoneMain">اصلی</string>
+    <string name="PhoneMobile">موبایل</string>
+    <string name="PhoneNumberAlert">تمامی مخاطبین تلگرامت رو روی شماره جدید دریافت می کنی ، شماره های کسایی که گفت و گو می کردید و اونایی که حسابشون رو بلاک نکردی رو می تونی داشته باشی</string>
+    <string name="PhoneNumberChange">تغییر شماره</string>
+    <string name="PhoneNumberHelp">"اینجا می‌تونی شماره‌ی تلگرام‌ت رو تغییر بدی. اکانتت و تمام داده‌های ابریت — پیام‌ها، رسانه‌ها، مخاطبین و غیره به شماره‌ی جدیدت منتقل میشن.
+
+&lt;b>مهم:&lt;/b> &lt;b>شماره‌ی جدیدت&lt;/b> به دفترچه آدرس مخاطبین تلگرامت اضافه میشه، در صورتی که اونا شماره‌ی قبلی شما رو داشته باشن و شمام اونا رو تو تلگرام مسدود نکرده باشی."</string>
+    <string name="PhoneOther">دیگه</string>
+    <string name="PhoneWork">کار</string>
+    <string name="PhotoCaption">عنوان عکس</string>
+    <string name="PhotoTip">برای دیدن ضربه بزن و نگه دار</string>
+    <string name="PickerPhotos">عکس ها</string>
+    <string name="PickerVideo">ویدئو</string>
+    <string name="PinMessage">سنجاق شود</string>
+    <string name="PinMessageAlert">آیا می خواهید این پیام در این گروه سنجاق شود؟</string>
+    <string name="PinNotify">همه اعضا را آگاه کن</string>
+    <string name="PinnedMessage">پیام سنجاق شده</string>
+    <string name="PleaseDownload">اول رسانه ها رو دانلود کن</string>
+    <string name="PleaseEnterCurrentPassword">لطفا گذرواژه‌ی خود رو وارد کنید</string>
+    <string name="PleaseEnterFirstPassword">یه گذرواژه وارد کن</string>
+    <string name="PleaseEnterPassword">لطفا گذرواژه‌ی جدید خود رو وارد کنید</string>
+    <string name="PleaseReEnterPassword">لطفا گذرواژه‌ی خود رو دوباره وارد کنید</string>
+    <string name="PopupNotification">اعلان های پاپ آپ</string>
+    <string name="PrivacyFloodControlError">متاسفیم ، درخواست های بسیاری داریم ، به همین دلیل نمی تونیم تنظیمات حریم خصوصی رو تغییر بدیم ، لطفا صبر کنید.</string>
+    <string name="PrivacyLastSeen">آخرین بازدید</string>
+    <string name="PrivacyPolicy">سیاست حریم خصوصی</string>
+    <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
+    <string name="PrivacySettings">حریم خصوصی و امنیت</string>
+    <string name="PrivacyTitle">حریم خصوصی</string>
+    <string name="RaiseToSpeak">بالا آوردن گوشی برای صحبت</string>
+    <string name="ReEnterYourPasscode">گذرواژه جدید رو دوباره وارد کنید</string>
+    <string name="Recent">اخیر</string>
+    <string name="RecordingAudio">در حال ضبط صدا....</string>
+    <string name="RecoveryEmail">ایمیل بازیابی</string>
+    <string name="RegisterText">نام و نام خانوادگی خودتون رو بنویسید</string>
+    <string name="RemoveFromListText">روی کاربر ضربه بزن و نگه دار تا پاک بشه .</string>
+    <string name="RepeatDisabled">خاموش</string>
+    <string name="RepeatNotifications">تکرار اعلان ها</string>
+    <string name="RepeatNotificationsNever">هرگز</string>
+    <string name="Reply">پاسخ</string>
+    <string name="ReplyToGroup">پاسخ به %1$s</string>
+    <string name="ReplyToUser">پاسخ به %1$s</string>
+    <string name="ReportChat">گزارش</string>
+    <string name="ReportChatDescription">توضیحات</string>
+    <string name="ReportChatOther">سایر</string>
+    <string name="ReportChatPornography">پورنوگرافی</string>
+    <string name="ReportChatSpam">اسپم</string>
+    <string name="ReportChatViolence">خشونت</string>
+    <string name="ReportSpam">گزارش اسپم</string>
+    <string name="ReportSpamAlert">مطمئنید میخواهید برای این کاربر گزارش اسپم بفرستید؟</string>
+    <string name="ReportSpamAlertChannel">آیا از گزارش اسپم کردن این کانال اطمینان دارید؟</string>
+    <string name="ReportSpamAlertGroup">مطمئنید میخواهید برای این گروه گزارش اسپم بفرستید؟</string>
+    <string name="ReportSpamAndLeave">گزارش اسپم و ترک کردن</string>
+    <string name="Reset">تنظیم مجدد</string>
+    <string name="ResetAllNotifications">همه اعلانات رو ریست کن</string>
+    <string name="ResetMyAccount">اکانت من رو ریست کن</string>
+    <string name="ResetMyAccountText">در صورتی که به بازنشانی حسابتان اقدام کنید، همه مکالمات و پیام هایتان به همراه همه رسانه ها و فایل هایی که به اشتراک گذارده اید را از دست خواهید داد.</string>
+    <string name="ResetMyAccountWarning">هشدار</string>
+    <string name="ResetMyAccountWarningReset">تنظیم مجدد</string>
+    <string name="ResetMyAccountWarningText">"این عمل قابل بازگردانی نیست.
+
+اگر شما حسابتان را بازنشانی کنید، همه پیام ها و مکالمات پاک خواهند شد."</string>
+    <string name="ResetNotificationsText">همه اعلان ها رو به حالت پیش فرض برگردون</string>
+    <string name="RestoreEmailSent">"ما ایمیلی حاوی کد بازنشانی به آدرسی که شما ارائه داده اید ارسال کردیم:
+
+%1$s"</string>
+    <string name="RestoreEmailSentInfo">لطفا پست الکترونیک خود را چک کنید و کد 6 رقمی که برایتان ارسال کردیم ، اینجا وارد نمایید.</string>
+    <string name="RestoreEmailTrouble">%1$s مشکلی برای دسترسی به پست الکترونیک خود دارید؟</string>
+    <string name="RestoreEmailTroubleText">اگر شما نمیتونید به حساب ایمیلتون دسترسی داشته باشید، گزینه های پیش روی شما به خاطر سپاری رمز و یا بازنشاندن حساب شماست.</string>
+    <string name="RestorePasswordNoEmailText">از اونجایی که شما هنگام ثبت رمزتان ایمیلی جهت بازیابی ارائه ندادید، گزینه های پیش روی شما به خاطر سپاری رمز و یا بازنشاندن حساب شماست.</string>
+    <string name="RestorePasswordNoEmailTitle">با عرض پوزش</string>
+    <string name="Retry">دوباره تلاش کن</string>
+    <string name="RevokeAlert">آیا از ابطال لینک اطمینان دارید؟ وقتی لینک باطل شد، هیچ کسی نمیتواند با استفاده از آن عضو شود.</string>
+    <string name="RevokeAlertNewLink">لینک دعوت قبلی هم اکنون غیرفعال است. یک لینک دعوت جدید ایجاد شده است.</string>
+    <string name="RevokeButton">باطلش کن</string>
+    <string name="RevokeLink">لینکو باطل کن</string>
+    <string name="SETTINGS">تنظیمات</string>
+    <string name="Satellite">ماهواره</string>
+    <string name="Saturation">اشباع</string>
+    <string name="Save">ذخیره</string>
+    <string name="SaveToDownloads">ذخیره در دانلودها</string>
+    <string name="SaveToGIFs">ذخیره در گیف ها</string>
+    <string name="SaveToGallery">ذخیره در گالری</string>
+    <string name="SaveToGallerySettings">ذخیره در گالری</string>
+    <string name="SaveToMusic">ذخیره در موسیقی</string>
+    <string name="SdCard">کارت حافظه</string>
+    <string name="Search">جستجو</string>
+    <string name="SearchGifs">جستجوی تصاویر متحرک</string>
+    <string name="SearchGifsTitle">جستجوی تصاویر متحرک</string>
+    <string name="SearchImages">جستجوی تصاویر</string>
+    <string name="SearchImagesInfo">جستجوی وب</string>
+    <string name="SearchImagesTitle">جستجوی وب</string>
+    <string name="SearchMessages">پیام ها</string>
+    <string name="SecretChat">گفتگوهای مخفیانه</string>
+    <string name="SecretChatContextBotAlert">لطفا توجه کنید که رباتهای درون چت بوسیله توسعه دهندگان ثالث ارائه شده اند. برای اینکه ربات قادر به انجام کار باشد، علامت هایی که شما بعد از نام کاربری روبات می نویسید به توسعه دهنده مربوطه ارسال خواهند شد.</string>
+    <string name="SecretLinkPreviewAlert">آیا می خواهید پیش نمایش توسعه یافته لینک ها در چت های مخفی فعال کنید؟ توجه کنید که پیش نمایش لینکها در سرورهای تلگرام تولید شده اند.</string>
+    <string name="SecretWebPage">پیش نمایشهای لینک</string>
+    <string name="SecurityTitle">امنیت</string>
+    <string name="SelectChat">انتخاب گفتگو</string>
+    <string name="SelectContact">مخاطبتو انتخاب کن</string>
+    <string name="SelectFile">انتخاب فایل</string>
+    <string name="Send">ارسال</string>
+    <string name="SendByEnter">ارسال با اینتر</string>
+    <string name="SendContactTo">ارسال مخاطب به %1$s?</string>
+    <string name="SendContactToGroup">ارسال مخاطب به %1$s?</string>
+    <string name="SendItems">ارسال %1$s</string>
+    <string name="SendLocation">ارسال مکان فعلی شما</string>
+    <string name="SendMessageTo">ارسال پیام به ...</string>
+    <string name="SendMessagesTo">پیام ها به %1$s ارسال شه؟</string>
+    <string name="SendMessagesToGroup">پیام‌ها به %1$s ارسال شه؟</string>
+    <string name="SendSelectedLocation">ارسال مکان انتخابی</string>
+    <string name="SendSticker">ارسال استیکر</string>
+    <string name="SendingAudio">داره صدا میفرسته...</string>
+    <string name="SendingFile">داره فایل می فرسته ...</string>
+    <string name="SendingPhoto">داره عکس می فرسته ...</string>
+    <string name="SendingVideo">در حال ارسال ویدیو ...</string>
+    <string name="SendingVideoStatus">داره ویدیو می فرسته ...</string>
+    <string name="SentAppCode">ما کد را به برنامه تلگرامی روی دستگاه دیگر شما فرستادیم.</string>
+    <string name="SentCallCode">"ما یک تماس فعال به شماره &lt;b>%1$s&lt;/b> فرستادیم.
+
+شماره را نگیرید, تلگرام همه چیز را به صورت خودکار پردازش خواهد کرد."</string>
+    <string name="SentCallOnly">ما در حال تماس با شماره &lt;b>%1$s&lt;/b> برای گفتن کد هستیم.</string>
+    <string name="SentSmsCode">یه پیامک حاوی کد فعال سازی برای تلفن &lt;b>%1$s&lt;/b> فرستادیم.</string>
+    <string name="ServiceNotifications">سرویس اعلان ها</string>
+    <string name="SessionsInfo">کنترل نشست ها روی دستگاه های دیگه</string>
+    <string name="SessionsTitle">نشست های فعال</string>
+    <string name="Set">تنظیم کن</string>
+    <string name="SetAdditionalPassword">تنظیم گذرواژه‌ی اضافی</string>
+    <string name="SetAdditionalPasswordInfo">شما می توانید علاوه بر کد تاییدی که از طریق پیامک دریافت می کنید، رمزی را اضافه کنید که در زمان ورود الزامی خواهد بود.</string>
+    <string name="SetAdmins">انتخاب مدیران</string>
+    <string name="SetAdminsAll">همگی اعضا مدیر هستند</string>
+    <string name="SetAdminsAllInfo">همه اعضا می توانند عضو جدید اضافه کنند، نام و عکس گروه را تغییر دهند.</string>
+    <string name="SetAdminsNotAllInfo">فقط مدیران می توانند اعضا را حذف و اضافه کنند یا نام و عکس گروه را تغییر دهند.</string>
+    <string name="SetAdminsTitle">مدیران گفت و گو</string>
+    <string name="SetAsAdmin">ترفیع به مدیر</string>
+    <string name="SetRecoveryEmail">تنظیم ایمیل بازیابی</string>
+    <string name="SetTimer">تنظیم زمان‌سنج نابود شونده خودکار</string>
+    <string name="Settings">تنظیمات</string>
+    <string name="Shadows">سایه‌ها</string>
+    <string name="ShareContact">به اشتراک بذار</string>
+    <string name="ShareFile">اشتراک گذاری</string>
+    <string name="ShareLink">لینک رو به اشتراک بذار</string>
+    <string name="ShareLocation">مکان</string>
+    <string name="ShareMyContactInfo">اشتراک اطلاعات تماس</string>
+    <string name="ShareSendTo">ارسال به...</string>
+    <string name="ShareYouLocationInfo">مکان جاری شما به روبات ارسال خواهد شد.</string>
+    <string name="ShareYouLocationInline">این روبات تمایل دارد هر زمان که به آن درخواستی می فرستید مکان شما را بداند.این امکان می تواند برای ارائه نتیجه های وابسته به مکان قابل استفاده باشد.</string>
+    <string name="ShareYouLocationTitle">مکان شما به اشتراک گذاشته شود؟</string>
+    <string name="ShareYouLocationUnable">برنامه قادر به تشخیص مکان جاری شما نیست.</string>
+    <string name="ShareYouLocationUnableManually">انتخاب دستی</string>
+    <string name="ShareYouPhoneNumberTitle">شماره تلفن شما به اشتراک گذاشته شود؟</string>
+    <string name="SharedMedia">رسانه به اشتراک گذاشته شده</string>
+    <string name="SharedMediaTitle">رسانه های مشترک</string>
+    <string name="Sharpen">تیز</string>
+    <string name="Short">کوتاه</string>
+    <string name="ShortMessageLifetimeForever">خاموش</string>
+    <string name="ShortcutAdded">میانبر به صفحه اصلی اضافه شد</string>
+    <string name="ShowAllMedia">نمایش همه رسانه ها</string>
+    <string name="SlideToCancel">بکش تا لغو بشه</string>
+    <string name="SmartNotifications">اعلان های هوشمند</string>
+    <string name="SmartNotificationsDisabled">غیرفعال</string>
+    <string name="SmartNotificationsInfo">حداکثر صدا %1$s بین %2$s</string>
+    <string name="SmsText">ما یک پیامک به صورت %1$d:%2$02d برای شما ارسال خواهیم کرد.</string>
+    <string name="SoftUserLimitAlert">بعد از ساخت گروه و تبدیل آن به سوپرگروه شما می توانید کاربران بیشتری اضافه کنید.</string>
+    <string name="SortBy">به ترتیب کن</string>
+    <string name="SortFirstName">نام</string>
+    <string name="SortLastName">نام خانوادگی</string>
+    <string name="Sound">صدا</string>
+    <string name="SoundDefault">پیش فرض</string>
+    <string name="StartEncryptedChat">یه گفت و گوی مخفیانه راه بنداز</string>
+    <string name="StartMessaging">شروع پیام رسانی</string>
+    <string name="StartText">"‫لطفاً کد کشورتون را تأیید
+ و شماره تلفنتون رو وارد کنین."</string>
+    <string name="Stickers">استیکرها</string>
+    <string name="StickersCopy">کپی کردن لینک</string>
+    <string name="StickersHide">پنهان کردن</string>
+    <string name="StickersRemove">پاک کردن</string>
+    <string name="StickersRemoved">استیکرها پاک شدن</string>
+    <string name="StickersShare">اشتراک گذاری</string>
+    <string name="Support">پشتیبانی</string>
+    <string name="SystemRoot">ریشه سیستم</string>
+    <string name="TapHereGifs">برای دسترسی به گیف های ذخیره شده اینجا را لمس کن</string>
+    <string name="TelegramFaq">سوالات رایج تلگرام</string>
+    <string name="TelegramFaqUrl">https://telegram.org/faq</string>
+    <string name="TerminateAllSessions">همه نشت‌های دیگر را خاتمه بده</string>
+    <string name="TerminateSessionInfo">برای پایان دادن به یک نشست ضربه بزنید</string>
+    <string name="TerminateSessionQuestion">این نشست خاتمه داده شود؟</string>
+    <string name="TextSize">اندازه پیام متنی</string>
+    <string name="TimeToEdit">%1$s</string>
+    <string name="TimeToEditExpired">متاسفانه مدت ویرایش به اتمام رسیده است.</string>
+    <string name="Tint">رنگ</string>
+    <string name="TintHighlights">های لایت</string>
+    <string name="TintShadows">سایه ها</string>
+    <string name="TodayAt">در</string>
+    <string name="TurnPasswordOff">گذرواژه رو خاموش کن</string>
+    <string name="TurnPasswordOffQuestion">مطمئنی می خوای گذرواژه رو غیر فعال کنی؟</string>
+    <string name="TwoStepVerification">تایید دو مرحله ای</string>
+    <string name="TypeMessage">          پیام        </string>
+    <string name="Typing">در حال نوشتن...</string>
+    <string name="Unblock">آزاد کردن</string>
+    <string name="UnblockText">روی کاربر فشار بده و نگه دار تا آزاد بشه</string>
+    <string name="UndoAllCustom">تنظیمات همه اعلانات سفارشی برای همه گروه ها و مخاطبین رو برگردون به حالت قبل</string>
+    <string name="UnknownError">خطای ناشناخته</string>
+    <string name="UnlockFingerprint">باز کردن با اثر انگشت</string>
+    <string name="UnmuteNotifications">صدادار کردن</string>
+    <string name="UnofficialApp">برنامه غیر رسمی</string>
+    <string name="UnpinMessage">سنجاق نشود</string>
+    <string name="UnpinMessageAlert">آیا می خواهید این پیام سنجاق نشود؟</string>
+    <string name="UnsupportedAttachment">نوع ضمیمه شما پشتیبانی نمیشه</string>
+    <string name="UnsupportedMedia">این پیام در نسخه تلگرام شما پشتیبانی نمی شود.برای مشاهده پیام ،برنامه را بروز رسانی کنید:https://telegram.org/update</string>
+    <string name="Updating">در حال به روز رسانی...</string>
+    <string name="UpgradeGroup">ارتقا به سوپرگروه</string>
+    <string name="UsbActive">انتقال USB فعاله</string>
+    <string name="UserRestricted">متاسفانه شما اجازه انجام این کار را ندارید.</string>
+    <string name="Username">نام کاربری</string>
+    <string name="UsernameAvailable">%1$s موجوده</string>
+    <string name="UsernameChecking">در حال بررسی نام کاربری...</string>
+    <string name="UsernameEmpty">هیچ کدام</string>
+    <string name="UsernameHelp">شما می تونید یک نام کاربری در &lt;b> تلگرام &lt;/b> انتخاب کنید. اگر این کار رو بکنید بقیه با این نام کاربری می تونند شما رو پیدا کنن و بدون داشتن شماره تلفنتون با شما در تماس باشن. &lt;br>&lt;br> شما مجازید از &lt;b>a–z&lt;/b>, &lt;b>0–9&lt;/b> و زیرخط استفاده کنید. حداقل طول اون هم &lt;b>5&lt;/b> کاراکتر هستش.</string>
+    <string name="UsernameInUse">متاسفانه این نام کاربری قبلا انتخاب شده</string>
+    <string name="UsernameInvalid">متاسفانه این نام کاربری معتبر نیست</string>
+    <string name="UsernameInvalidLong">نام کاربری نباید از 32 کاراکتر بیشتر باشد</string>
+    <string name="UsernameInvalidShort">نام کاربری باید حداقل 5 کاراکتر باشد</string>
+    <string name="UsernameInvalidStartNumber">متاسفانه نام کاربری نمیتواند با عدد شروع شود</string>
+    <string name="UsernamePlaceholder">نام کاربری شما</string>
+    <string name="WaitingForNetwork">در انتظار شبکه...</string>
+    <string name="Warmth">گرمی</string>
+    <string name="WhenConnectedOnWiFi">زمانی که به وای فای وصله</string>
+    <string name="WhenRoaming">زمانی که به رومینگ وصله</string>
+    <string name="WhenUsingMobileData">زمانی که به دیتا وصله</string>
+    <string name="WhoCanAddMe">چه کسی می تواند من را به گروه اضافه کند؟</string>
+    <string name="WhoCanAddMeInfo">شما می توانید با دقت بالا محدود کنید که چه کسانی بتوانند شما را به گروه ها و کانالها اضافه کنند.</string>
+    <string name="WhoCanAddMembers">چه کسی می تواند اعضای جدید اضافه کند؟</string>
+    <string name="WhoCanAddMembersAdmins">فقط مدیران</string>
+    <string name="WhoCanAddMembersAllMembers">همه اعضا</string>
+    <string name="WithinAMonth">آخرین بازدید یک ماه پیش</string>
+    <string name="WithinAWeek">آخرین بازدید یک هفته پیش</string>
+    <string name="WrongCountry">کد کشور اشتباهه</string>
+    <string name="WrongNumber">شماره اشتباهه؟</string>
+    <string name="Yesterday">دیروز</string>
+    <string name="YesterdayAt">دیروز در</string>
+    <string name="YouCreatedBroadcastList">شما لیست سخن‌پراکنی جدیدی ساختی</string>
+    <string name="YouHaveNewMessage">شما یک پیام جدید دارید</string>
+    <string name="YouLeft">شما این گروه رو ترک کردید</string>
+    <string name="YouWereKicked">شما از گروه حذف شدید</string>
+    <string name="YourCode">تایید تلفن</string>
+    <string name="YourEmail">ایمیل شما</string>
+    <string name="YourEmailAlmostThere">تقریبا تمومه!</string>
+    <string name="YourEmailAlmostThereText">لطفا پست الکترونیک خود را(پوشه اسپم را فراموش نکنید) برای تکمیل راه اندازی تایید دو مرحله ای چک کنید.</string>
+    <string name="YourEmailInfo">لطفا پست الکترونیک صحیح خود را وارد کنید.این تنها راهی است که می تواند رمزعبور فراموش شده خود را بازیابی کنید</string>
+    <string name="YourEmailSkip">رد شو</string>
+    <string name="YourEmailSkipWarning">هشدار</string>
+    <string name="YourEmailSkipWarningText">جدی جدی اگه رمزتون رو فراموش کردین دسترسیتون به حساب تلگرام رو از دست میدید. هیچ راهی برای بازگرداندن آن وجود ندارد.</string>
+    <string name="YourName">نام شما</string>
+    <string name="YourPassword">گذرواژه‌ی شما</string>
+    <string name="YourPasswordSuccess">موفق شدی!</string>
+    <string name="YourPasswordSuccessText">گذرواژه شما برای تایید دو مرحله ای الان فعاله</string>
+    <string name="YourPhone">شماره موبایل شما</string>
+    <string name="chatDate">MMMM d</string>
+    <string name="chatFullDate">MMMM d, yyyy</string>
+    <string name="formatDateAtTime">%1$s در %2$s</string>
+    <string name="formatterDay12H">h:mm a</string>
+    <string name="formatterDay24H">HH:mm</string>
+    <string name="formatterMonth">MMM dd</string>
+    <string name="formatterMonthYear">MMMM yyyy</string>
+    <string name="formatterWeek">EEE</string>
+    <string name="formatterYear">dd.MM.yy</string>
+    <string name="formatterYearMax">dd.MM.yyyy</string>
+    <string name="items_few">%1$d مورد</string>
+    <string name="AddContactHelp">"شماره تلفن را همراه با کد کشور(98) و بدون صفر در ابتدای آن وارد کنید.
+اگر مخاطب فاقد اکانت تلگرامی باشد اضافه نخواهد شد."</string>
+    <string name="AddToFavorites">اضافه به برگزیده‌ها</string>
+    <string name="Afsaneh">افسانه</string>
+    <string name="All">همه</string>
+    <string name="HideTabs">پنهان کردن تب ها</string>
+    <string name="Users">مخاطبین</string>
+    <string name="Bots">ربات ها</string>
+    <string name="TabsHeight">ارتفاع تب ها</string>
+    <string name="SetAsDefaultTab">انتخاب به عنوان تب پیشفرض</string>
+    <string name="ResetDefaultTab">ریست کردن تب پیشفرض</string>
+    <string name="SortByStatus">مرتب سازی بر اساس وضعیت</string>
+    <string name="SortByUnreadCount">مرتب سازی بر اساس خوانده نشده ها</string>
+    <string name="ShowSuperGroupsTab">نمایش تب سوپر گروه ها</string>
+    <string name="HideSuperGroupsTab">پنهان کردن تب سوپر گروه ها</string>
+    <string name="DeleteFromFavorites">حذف از مورد علاقه ها</string>
+    <string name="NoFavoritesHelp">"موردی یافت نشد . \n برای اضافه کردن چت یا گروه ها به موارد مورد علاقه دست خود را برروی آنها نگه دارید و به لیست مورد علاقه ها اضافه کنید ."</string>
+    <string name="DisableTabsAnimation">پنهان نکردن تب ها در موقع اسکرول</string>
+    <string name="InfiniteSwipe">جابجایی نا محدود بین تب ها</string>
+    <string name="ShowDirectShareButton">نمایش دکمه اشتراک مستقیم</string>
+    <string name="ShowUsernameInMenu">نمایش نام کاربری به جای شماره موبایل</string>
+    <string name="MarkAsRead">علامت به عنوان خوانده شده</string>
+    <string name="MarkAllAsRead">همه را خوانده شده در نظر بگیر</string>
+    <string name="CheckStyle">استایل گزینش</string>
+
+
+    <string name="CategoryManagement">مدیریت دسته بندی</string>
+    <string name="CategorySettings">تنظیمات دسته بندی</string>
+    <string name="Channels">کانال ها</string>
+    <string name="ChatsSettings">تنظیمات گفتگوها</string>
+    <string name="DefaultFont">پیش فرض</string>
+    <string name="DeleteChatMarker">حذف نشانه گذار گفتگو</string>
+    <string name="DeleteContactPlaceholder">حذف مخاطبین...</string>
+    <string name="Favorites">برگزیده‌ها</string>
+    <string name="ForwardNoQuote">فوروارد بدون نقل قول</string>
+    <string name="ForwardSettings">تنظیمات فوروارد</string>
+    <string name="GhostMode">حالت روح</string>
+    <string name="GoToChatMarker">برو به نشانه گذار گفتگو</string>
+    <string name="GoToChatMarkerEmpty">"با این امکان شما می توانید گفتگو را تا یک پیام نشانه گذاری کنید.(مانند نشانه گذاری کتاب برای مطالعه بعدی)
+ برای این گفتگو هیچ نشانه گذاری ای انجام نشده است.
+برای نشانه گذاری گفتگو بر روی پیام ضربه بزنید و گزینه \"نشانه گذاری گفتگو بر روی این پیام\" را انتخاب کنید."</string>
+    <string name="GoToFirstMessage">برو به اولین پیام</string>
+    <string name="Groups">گروه ها</string>
+    <string name="Handwrite">دست نویس</string>
+    <string name="Hidden">مخفی</string>
+    <string name="HiddenChats">گفتگوهای مخفی</string>
+    <string name="Admins">ادمین ها</string>
+    <string name="AdminsShow">مخفی کردن تب ادمین ها</string>
+    <string name="SpecialHiddenChats">کانال های پیشنهادی</string>
+    <string name="SpecialHiddenBots">ربات های پیشنهادی</string>
+    <string name="HideShowTabs">نمایش/مخفی کردن زبانه</string>
+    <string name="Homa">هما</string>
+    <string name="IranSans">ایران سنس معمولی</string>
+    <string name="IranSansBold">ایران سنس پررنگ</string>
+    <string name="IranSansLight">ایران سنس نازک</string>
+    <string name="IranSansMedium">ایران سنس متوسط</string>
+    <string name="LeaveWithoutDelete">ترک گروه با امکان بازگشت</string>
+    <string name="Media">رسانه</string>
+    <string name="MediaCaption">عنوان رسانه</string>
+    <string name="Morvarid">مروارید</string>
+    <string name="NewCategory">دسته جدید</string>
+    <string name="Manage">مدیریت</string>
+    <string name="NewContact">مخاطب جدید</string>
+    <string name="PhoneNumber">شماره تلفن (الزامی)</string>
+    <string name="PleaseWait">لطفا منتظر بمانید...</string>
+    <string name="ProForward">فوروارد پیشرفته</string>
+    <string name="CloudSave">ذخیره در فضای ابری</string>
+    <string name="Quote">نقل‌قول</string>
+    <string name="Read">خوانده شده</string>
+    <string name="ReportProblemHelp">راهنمای مشکل ریپورت</string>
+    <string name="Sent">ارسال شد</string>
+    <string name="SetChatMarker">نشانه گذاری گفتگو بر روی این پیام</string>
+    <string name="ShowDateToast">نمایش تاریخ در زمان پیمایش</string>
+    <string name="ShowTabsInBottom">نمایش زبانه ها در پایین صفحه</string>
+    <string name="SortByLastMessage">بر اساس زمان آخرین پیام مرتب شود</string>
+    <string name="SuperGroups">سوپرگروه ها</string>
+    <string name="TabSettings">تنظیمات زبانه ها</string>
+    <string name="Themes">پوسته ها</string>
+    <string name="UsernameFinder">آیدی یاب</string>
+    <string name="UsernameFinderHelp">به راحتی افراد، کانال ها و ربات ها را با آیدی یاب &lt;b>تله ایکس&lt;/b> پیدا کنید. &lt;br>&lt;br>پس از وارد کردن آیدی (نام کاربری) مورد نظر و موجود بودن آن (رنگ سبز) روی تیک بالای صفحه کلیک نمایید. &lt;br>&lt;br>آیدی ها می توانند شامل &lt;b>a–z&lt;/b>, &lt;b>0–9&lt;/b> و زیرخط (_) باشند. حداقل طول آیدی &lt;b>5&lt;/b> کاراکتر است. &lt;br>&lt;br>توجه: دسترسی و پیام دادن بیش از حد به افرادی که در لیست مخاطبان شما نیستند می تواند اسپم شدن حساب شما را در بر داشته باشد. این موضوع باعث می شود برخی از امکانات حسابتان مانند پیام دادن به افراد ناشناس، محدود شود. از این امکان بهینه و مفید استفاده نمایید.</string>
+    <string name="UsernameUnavailable">این آیدی موجود نیست</string>
+    <string name="ViewSetting">تنظیمات ظاهری</string>
+    <string name="Yekan">یکان</string>
+    <string name="about_comment">به برنامه امتیاز دهید</string>
+    <string name="about_products">دیگر برنامه ها</string>
+    <string name="about_site">وبسایت تله ایکس</string>
+    <string name="about_title_contact_us">تماس با ما</string>
+    <string name="send_email">ارسال ایمیل …</string>
+
+    <string name="SaveSettings">ذخیره تنظیمات</string>
+    <string name="RestoreSettings">بازنشانی تنظیمات</string>
+    <string name="ResetSettings">ریست کردن تنظیمات</string>
+    <string name="SaveSettingsSum">ذخیره تمام تنظیمات</string>
+    <string name="RestoreSettingsSum">بازنشانی تمام تنظیمات</string>
+    <string name="ResetSettingsSum">ریست کردن تمام تنظیمات</string>
+
+    <string name="ShortcutError">خطای ایجاد </string>
+    <string name="IsSendingAudio">درحال ارسال صوت</string>
+
+    <string name="PermissionNoLocationPosition">PermissionNoLocationPosition</string>
+    <string name="PinnedMessages">پیام نشانه گذاری شده</string>
+    <string name="NotificationsServiceConnection">NotificationsServiceConnection</string>
+    <string name="NotificationsServiceInfo">NotificationsServiceInfo</string>
+    <string name="NotificationsServiceConnectionInfo">NotificationsServiceConnectionInfo</string>
+    <string name="OnlineContacts">کاربران آنلاین</string>
+    <string name="FileManager">مدیریت فایل</string>
+    <string name="gost_enabled">حالت روح غیر فعال</string>
+    <string name="gost_disabled">حالت روح فعال</string>
+    <string name="contactChanges">تغییرات مخاطبان</string>
+    <string name="SpecificContacts">مخاطبین خاص</string>
+    <string name="AddSpecific">اضافه به مخاطبین خاص</string>
+    <string name="DeleteSpecific">حذف از مخاطبین خاص</string>
+    <string name="EditSpecific">ادیت مورد</string>
+    <string name="OpenSpecificContact">بازکردن چت</string>
+    <string name="SpecificSettings">تنظیمات</string>
+    <string name="SpecificSettings1">فقط در زمان باز بودن برنامه</string>
+    <string name="SpecificSettings2">همیشه</string>
+    <string name="DeleteSpecificText">آیا از حذف از لیست مخاطبین خاص اطمینان دارید ؟!</string>
+    <string name="picup">تغییر تصویر</string>
+    <string name="statusup">تغییر وضعیت</string>
+    <string name="phoneup">تغییر شماره تماس</string>
+    <string name="isonetime">فقط برای یکبار خبر بده</string>
+    <string name="typeChangePic">تصویر خود را تغییر داد.</string>
+    <string name="typeChangephone">شماره خود را تغییر داد .</string>
+    <string name="typeChangeusername">یوزرنیم خود را تغییر داد .</string>
+    <string name="typeisOnline">آنلاین شد</string>
+    <string name="typeisOffline">آفلاین شد</string>
+    <string name="Filter">فیلتر</string>
+    <string name="FilterALL">نمایش همه</string>
+    <string name="FilterPics">تغییر تصویر</string>
+    <string name="FilterPhones">تغییر شماره</string>
+    <string name="FilterUserName">تغییر یوزر نیم</string>
+    <string name="DeleteAll">حذف همه تغییرات</string>
+    <string name="DeleteAllText">از حذف همه تغییرات اطمینان دارید ؟!</string>
+
+
+    <string name="updateVersion">آپدیت</string>
+    <string name="updateVersionText">لطفا آخرین ورژن برنامه را دریافت کنید</string>
+    <string name="updatebutton">دانلود</string>
+    <string name="updating">درحال دانلود</string>
+
+    <string name="ThemeStore">تم های آنلاین</string>
+    <string name="OfflineThemes">تم های آفلاین</string>
+    <string name="ReturnToThisGroup">بازگشت به گروه</string>
+    <string name="ReturnToThisGroupMsg">بازگشت به این گروه</string>
+
+
+    <string name="InvertMessageOrder">برعکس کردن ترتیب پیام ها</string>
+    <string name="SearchUserOnTwitter">یافتن کاربر در توییتر</string>
+    <string name="TelegramForAndroid">پیام رسان تله ایکس برای اندروید</string>
+    <string name="Theming">تم سازی</string>
+    <string name="PlusSettings">تنظیمات تله ایکس</string>
+    <string name="colorHexInvalid">کد رنگ نا معتبر !</string>
+    <string name="themeColor">رنگ قالب</string>
+    <string name="ResetThemeSettings">بازنشانی تنظیمات تم</string>
+    <string name="ResetThemeSettingsSum">بازگرداندن تمام تنظیمات</string>
+    <string name="ResetThemeToastText">بازنشانی به تنظیمات اولیه !</string>
+    <string name="General">عمومی </string>
+    <string name="Screens">صفحه ها</string>
+    <string name="MainScreen">صفحه اصلی </string>
+    <string name="ChatScreen">صفحه چت </string>
+    <string name="ContactsScreen">صفحه مخاطبین</string>
+    <string name="Header">سر برگ</string>
+    <string name="ChatList">لیست چت</string>
+    <string name="ChatsList">لیست چت ها</string>
+    <string name="ContactsList">لیست مخاطب ها</string>
+    <string name="HeaderColor">رنگ سربرگ</string>
+    <string name="NameColor">رنگ نام</string>
+    <string name="NameSize">سایز نام</string>
+    <string name="MessageColor">رنگ پیام</string>
+    <string name="MessageSize">سایز پیام</string>
+    <string name="TimeDateColor">رنگ تاریخ/ساعت</string>
+    <string name="TimeDateSize">سایز تاریخ/ساعت</string>
+    <string name="CountColor">رنگ شمارشگر</string>
+    <string name="CountSize">سایز شمارشگر</string>
+    <string name="RowColor">رنگ ردیف</string>
+    <string name="CountBGColor">رنگ پس زمینه شمارشگر</string>
+    <string name="StatusColor">رنگ نوتیفیکیشن</string>
+    <string name="StatusSize">اندازه نوتیفیکیشن</string>
+    <string name="RBubbleColor">رنگ حباب راست</string>
+    <string name="LBubbleColor">رنگ حباب چپ</string>
+    <string name="DateColor">رنگ تاریخ</string>
+    <string name="DateSize">اندازه تاریخ</string>
+    <string name="DateBubbleColor">رنگ حباب تاریخ</string>
+    <string name="RTextColor">رنگ متن سمت راست</string>
+    <string name="LTextColor">رنگ متن سمت چپ</string>
+    <string name="RTimeColor">رنگ زمان سمت راست</string>
+    <string name="LTimeColor">رنگ زمان سمت چپ</string>
+    <string name="TimeSize">اندازه زمان</string>
+    <string name="EditTextColor">رنگ متن ورودی</string>
+    <string name="EditTextSize">اندازه متن ورودی</string>
+    <string name="EditTextBGColor">پس زمینه متن پیام</string>
+    <string name="EmojiViewBGColor">رنگ پس زمینه شکلک</string>
+    <string name="EmojiViewTabColor">رنگ تب انتخاب شده شکلک ها</string>
+    <string name="EmojiViewTabIconColor">رنگ آیکون شکلک ها</string>
+    <string name="OnlineColor">رنگ آنلاینی</string>
+    <string name="SaveTheme">ذخیره تم</string>
+    <string name="SaveThemeSum">تم خود را در مسیر Telegram/Themes ذخیره کنید .</string>
+    <string name="SavedTo">%1$s ذخیره شد در %2$s</string>
+    <string name="SavedToCloud">پیام در فضای ابری ذخیره شد</string>
+    <string name="SaveErrorMsg0">تم هنوز ساخته نشده لطفا ایتدا آن را تایید کنید .</string>
+    <string name="restoreErrorMsg">No preferences file found in %s</string>
+    <string name="NoMediaMessage">کارت حافظه خارجی یافت نشد .</string>
+    <string name="EnterName">اسم را وارد کنید </string>
+    <string name="ApplyTheme">اعمال قالب تم</string>
+    <string name="ApplyThemeSum">اعمال قالب از حافظه دستگاه</string>
+    <string name="MemberColor">رنگ کاربر</string>
+    <string name="ChecksColor">رنگ تیک ها</string>
+    <string name="MuteColor">رنگ سکوت</string>
+    <string name="SendLogsEmpty">اعلانی وجود ندارد</string>
+    <string name="SendIcon">آیکون ارسال</string>
+    <string name="HideMobile">پنهان کردن شماره موبایل از منو</string>
+    <string name="FloatingPencilColor">رنگ آیکون دکمه شناور منو</string>
+    <string name="FloatingBGColor">پس زمینه دکمه شناور منو</string>
+    <string name="TypingColor">رنگ حالت تایپ</string>
+    <string name="EditTextIconsColor">رنگ آیکون های بخش ارسال پیام</string>
+    <string name="NavigationDrawer">منو کناری</string>
+    <string name="OptionsList">لیست تنظیمات</string>
+    <string name="ListColor">رنگ لیست</string>
+    <string name="OwnNameSize">رنگ اسم</string>
+    <string name="PhoneColor">رنگ شماره تماس</string>
+    <string name="PhoneSize">سایز شماره تماس</string>
+    <string name="AvatarColor">رنگ آواتار</string>
+    <string name="IconColor">رنگ آیکون تنظیمات</string>
+    <string name="OptionColor">رنگ تنظیمات</string>
+    <string name="OptionSize">سایز تنظیمات</string>
+    <string name="VersionColor">رنگ ورژن</string>
+    <string name="VersionSize">سایز ورژن</string>
+    <string name="HeaderTitleColor">رنگ متن سربرگ</string>
+    <string name="HeaderIconsColor">رنگ آیکون سربرگ</string>
+    <string name="DividerColor">رنگ جدا کننده</string>
+    <string name="AvatarRadius">درجه زاویه آواتار</string>
+    <string name="SetMemberColor">تنظیم رنگ کاربر</string>
+    <string name="HeaderTitle">متن سربرگ</string>
+    <string name="DisableMessageClick">غیر فعال کردن پاپ آپ با کلیک</string>
+    <string name="ProfileScreen">پروفایل گروه/کاربر</string>
+    <string name="HideBackground">پنهان کردن پس زمینه سفارشی</string>
+    <string name="RLinkColor">رنگ لینک سمت راست</string>
+    <string name="LLinkColor">رنگ لینک سمت چپ</string>
+    <string name="ThemeApplied">قالب فعال شد !</string>
+    <string name="ClickOkToRestart">برای ری استارت شدن برنامه کلیک کنید</string>
+    <string name="ShowAndroidEmoji">نمایش شکلک های گوشی</string>
+    <string name="BubbleStyle">استایل حباب پیام</string>
+    <string name="KeepOriginalFilename">نگهداری اسم اصلی فایل ها</string>
+    <string name="KeepOriginalFilenameHelp">به جای شماره ، نام فایل ها بر اساس اسم و تاریخ ذخیره می شوند</string>
+    <string name="AvatarSize">سایز آواتار</string>
+    <string name="AvatarAlignTop">فاصله آواتار مخاطب تا بالا</string>
+    <string name="AvatarMarginLeft">فاصله از طرفین آواتار</string>
+    <string name="GroupNameColor">رنگ اسم گروه</string>
+    <string name="GroupNameSize">سایز اسم گروه</string>
+    <string name="UnknownNameColor">رنگ اسم (شماره ناشناس)</string>
+    <string name="HideBackgroundShadow">پنهان کردن سایه پس زمینه سفارشی</string>
+    <string name="SetSolidBGColor">تنظیم رنگ پس زمینه</string>
+    <string name="SolidBGColor">رنگ پس زمینه</string>
+    <string name="EmojiPopupSize">سایز پاپ آپ شکلک</string>
+    <string name="maxPinnedDialogsCount">حداکثر پیام های پین شده</string>
+    <string name="ForwardRightNameColor">رنگ حباب فوروارد راست</string>
+    <string name="ForwardLeftNameColor">رنگ حباب فوروارد چپ</string>
+    <string name="IconsColor">رنگ آیکون متن های ورودی</string>
+    <string name="SettingsScreen">صفحه تنظیمات و قالب سازی</string>
+    <string name="BackgroundColor">رنگ پس زمینه</string>
+    <string name="ShadowColor">رنگ سایه</string>
+    <string name="SectionColor">رنگ بخش</string>
+    <string name="TitleColor">رنگ عنوان</string>
+    <string name="SummaryColor">رنگ خلاصه/زیر تیتر</string>
+    <string name="MediaColor">رنگ متن تصاویر</string>
+    <string name="UseDeviceFont">استفاده از فونت گوشی</string>
+    <string name="AppWillRestart">برنامه ری استارت خواهد شد.</string>
+    <string name="GroupIconColor">رنگ آیکون گروه</string>
+    <string name="SharedContactNameColor">رنگ نام مخاطبین اشتراک گذاری شده</string>
+    <string name="AttachBGColor">رنگ پس زمینه صفحه الصاق</string>
+    <string name="AttachTextColor">رنگ متن الصاق</string>
+    <string name="ShowContactAvatar">نمایش آواتار کاربر در صفحه چت</string>
+    <string name="ShowOwnAvatar">نمایش آواتار خود در صفحه چت</string>
+    <string name="ShowOwnAvatarGroup">نمایش آواتار خود در چت گروه</string>
+    <string name="OwnAvatarAlignTop">فاصله آواتار تا بالا</string>
+    <string name="DialogColor">رنگ عنوان و دکمه های دیالوگ</string>
+    <string name="ShowUsername">نمایش یوزرنیم همراه با اسم کاربر</string>
+    <string name="DisableAudioStop">پخش موزیک ها متوقف نشود</string>
+    <string name="ListDividerColor">رنگ جداکننده لیست</string>
+    <string name="CenterAvatar">وسط چین کردن آواتار ، نام و شماره</string>
+    <string name="RowGradient">گرادیانت</string>
+    <string name="RowGradientColor">رنگ گرادیانت</string>
+    <string name="RowGradientDisabled">غیر فعال شده</string>
+    <string name="RowGradientTopBottom">بالا پایین</string>
+    <string name="RowGradientLeftRight">چپ راست</string>
+    <string name="RowGradientTLBR">بالا-چپ  پایین-راست</string>
+    <string name="RowGradientBLTR">پایین-چپ بالا-راست</string>
+    <string name="RowGradientList">استفاده از گرادیانت به عنوان پس زمینه لیست</string>
+    <string name="OfficialChannel">کانال رسمی</string>
+    <string name="OfficialChannelDelete">
+        این کانال رسمی برنامه می باشد که ما تمام اطلاع رسانی ها، برروز رسانی ها و موارد ضرروری را در آن منتشر می کنیم
+
+        آیا اطمینان دارید که می خواهید از تله ایکس خارج شوید ؟!
+    </string>
+    <string name="DialogsSettings">دیالوگ ها</string>
+    <string name="ClickOnContactPic">کلیک روی عکس کاربر</string>
+    <string name="ClickOnGroupPic">کلیک روی عکس گروه</string>
+    <string name="ShowProfile">پروفایل</string>
+    <string name="ShowPics">تصویر پروفایل</string>
+    <string name="CountSilentBGColor">رنگ پس زمینه شمارش گر سایلنت ها</string>
+    <string name="CommandColorCheck">رنگ فرمان چک ربات</string>
+    <string name="CommandColor">رنگ دستور ربات</string>
+    <string name="HighlightSearchColor">رنگ منتخب سرچ</string>
+    <string name="ThemeUpdated">%sآپدیت شد </string>
+    <string name="HideStatusIndicator">پنهان کردن جداکننده نوتیفیکیشن ها </string>
+
+    <string name="DirectShareReplies">اشتراک مستقیم</string>
+    <string name="DirectShareShowFavsFirst">برای اشتراک مستقیم ابتدا مورد علاقه ها را نشان بده</string>
+    <string name="DirectShareToMenu">اضافه کردن اشتراک مستقیم به پاپ آپ منو</string>
+    <string name="ShowEditedMark">نمایش علامت ادیت شده ها</string>
+    <string name="HideBotKeyboard">عدم نمایش کیبورت ربات به صورت پیشفرض</string>
+    <string name="HideJoinedGroup">پنهان کردن پیام اضافه شدن به گروه</string>
+    <string name="HideLeftGroup">پنهان کردن پیام خروج از گروه</string>
+    <string name="HideTabsCounters">نمایش شمارشگر تب ها</string>
+    <string name="HeaderTabCounterColor">رنگ شمارشگر تب ها</string>
+    <string name="HeaderTabCounterCountChats">شمارش تعداد چت ها به جای تعداد پیام ها</string>
+    <string name="HeaderTabCounterCountNotMuted">فقط شمارش چت های ساکت نشده</string>
+    <string name="OpenChannelProfile">اطلاعات کانال</string>
+
+    <string name="HeaderTabCounterBGColor">پس زمینه شمارشگر تب</string>
+    <string name="HeaderTabIconColor">رنگ آیکون تب</string>
+    <string name="HeaderTabUnselectedIconColor">رنگ تب های انتخاب نشده</string>
+
+    <string name="ChatYourSelfName">شما</string>
+    <string name="OpenInExternalApp">باز کردن در ...</string>
+    <string name="BotPermissionGameAlert">به %1$s اجازه می دهید تا به اسم و آیدی تلگرام شما دسترسی داشته باشد ؟!</string>
+
+
+    <string name="ActionPinnedGame">un1 سنجاق شده %1$s</string>
+    <string name="ActionYouScored">امتیاز شما %1$s</string>
+    <string name="ActionUserScored">un1 امتیاز %1$s</string>
+    <string name="ActionYouScoredInGame">شما امتیاز %1$s در بازی un2 گرفتید</string>
+    <string name="ActionUserScoredInGame">un1 امتیاز دریافت شده %1$s در un2</string>
+    <string name="AddMasks">اضافه کردن ماسک</string>
+    <string name="AddMasksInstalled">ماسک جدید اضافه شد</string>
+    <string name="MasksRemoved">ماسک حذف شد</string>
+
+    <string name="PaintDraw">نقاشی</string>
+    <string name="PaintStickers">استیکر ها</string>
+    <string name="PaintText">متن</string>
+    <string name="PaintDelete">حذف</string>
+    <string name="PaintEdit">ادیت</string>
+    <string name="PaintDuplicate">دوبرابر کردن</string>
+    <string name="PaintOutlined">خارج خط</string>
+    <string name="PaintRegular">عادی</string>
+    <string name="NoMasks">هنوز ماسکی نیست</string>
+    <string name="Masks">ماسک ها</string>>
+    <string name="MasksInfo">برای اضافه کردن ماسک به تصاویر خودتون قبل از ارسال تصویر ،ادینت تصویر را انتخاب کنید /</string>
+    <string name="FeaturedStickers">آماده سازی ماسک</string>
+    <string name="FeaturedStickersInfo">استیکر های خود را بسازید @stickers استیکر های فعلی توسط تلگرام ساخته شده اند، شما می توانید با ربات</string>
+    <string name="ArchivedStickers">استیکر های آرشیو شده</string>
+    <string name="ArchivedMasks">ماسک هاس آرشیو شده</string>
+    <string name="ArchivedStickersEmpty">هیچ استیکر آرشیو شده ای وجود ندارد</string>
+    <string name="ArchivedMasksEmpty">هیچ ماسک آرشیو شده ای وجود ندارد.</string>
+    <string name="ArchivedStickersInfo">شما بیشتر از 200 استیکر آرشیو شده دارید ، برای آرشیو های جدید باید استیکر های قبلی را حذف کنید.</string>
+    <string name="ArchivedMasksInfo">شما بیشتر از 200 ماسک آرشیو شده دارید ، برای آرشیو های جدید باید ماسک های قبلی را حذف کنید.</string>
+    <string name="ArchivedStickersAlertTitle">استیکر های آرشیو شده.</string>
+    <string name="ArchivedStickersAlertInfo">برخی از استیکر های شما آرشیو شده اند ، برای بازگردانی آنها به تنظیمات استیکر ها بروید .</string>
+    <string name="ArchivedMasksAlertTitle">ماسک های آرشیو شده</string>
+    <string name="ArchivedMasksAlertInfo">برخی از ماسک های شما آرشیو شده اند ، برای بازگردانی آنها به تنظیمات ماسک ها بروید .</string>
+
+    <string name="ChatYourSelf">چت با خودتان</string>
+    <string name="ChatYourSelfDescription1">برای ذخیره پیام ها آنها را اینجا فوروارد کنید.</string>
+    <string name="ChatYourSelfDescription2">برای ذخیره مدیا و فایل ها آنها را اینجا فوروارد کنید.</string>
+    <string name="ChatYourSelfDescription3">برروی هر دستگاهی دسترسی به این چت دارید</string>
+    <string name="ChatYourSelfDescription4">برای سریع تر پیدا کردن هرچیزی از جستجو استفاده کنید</string>
+    <string name="ChatYourSelfTitle">حافظه ابری شما</string>
+
+    <string name="emoji">ایموجی</string>
+    <string name="EmojiBigSize">رسم یک ایموجی بزرگ</string>
+    <string name="EmojiUseDefault">استفاده از ایموجی های دستگاه</string>
+
+    <!--edit video view-->
+    <string name="SendingGif">ارسال گیف ...</string>
+    <string name="JoinGroup">عضویت در گروه</string>
+
+    <string name="ResetAccount">ریست کردن اکانت</string>
+    <string name="ResetAccountInfo">Since the account <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> is active and protected by a password, we will delete it in 1 week for security purposes.\n\nYou can cancel this process at any time.</string>
+    <string name="ResetAccountStatus">You\'ll be able to reset your account in:</string>
+    <string name="ResetAccountCancelledAlert">Your recent attempts to reset this account have been cancelled by its active user. Please try again in 7 days.</string>
+    <string name="ResetAccountButton">ریست</string>
+    <string name="BannedPhoneNumber">شماره بلاک شده</string>
+
+    <string name="CancelAccountReset">انصراف از ریست کردن اکانت</string>
+    <string name="CancelAccountResetInfo">فردی که به شماره تلفن شما دسترسی داشته است &lt;b>%1$s&lt;/b> درخواست کرده است که اکانت تلگرام شما و تایید دو مرحله ای را پاک کند. اگر شما نیستید لطفا کدی که به شما پیامک شده است را در زیر وارد کنید.</string>
+    <string name="CancelLinkExpired">لینک انصراف منقضی شده است</string>
+    <string name="CancelLinkSuccess">مراحل حذف حساب کاربری شما %1$s کنسل شد. شا می توانید این پنجره را ببندید.</string>
+
+    <string name="AttachGame">بازی</string>
+    <string name="NotificationMessageGame">%1$s از شما برای بازی %2$s دعوت کرد.</string>
+    <string name="NotificationActionPinnedGame">%1$s یک بازی را در %2$s سنجاق کرد</string>
+    <string name="NotificationActionPinnedGameChannel">%1$s یک بازی سنجاق کرد</string>
+    <string name="NotificationMessageGroupGame">%1$s به گروه %2$s دعوت شد تا با %3$s بازی کند</string>
+    <string name="RevokeLinkAlert">آیا مطمئنید که لینک &lt;b>%1$s&lt;/b>]] را بازتولید کنید؟ گروه &lt;![CDATA[&lt;b>%2$s&lt;/b>\" خصوصی خواهد شد.</string>
+    <string name="RevokeLinkAlertChannel">آیا مطمئنید که لینک &lt;b>%1$s&lt;/b>]] را بازتولید کنید؟ کانال &lt;![CDATA[&lt;b>%2$s&lt;/b>\" خصوصی خواهد شد.</string>
+
+
+    <string name="LeaveWithoutDeleteMsg">ترک گروه با امکان بازگشت ؟!</string>
+
+    <string name="activeSessions">برای بهبود در سرعت برنامه ، کارایی و همچنین امنیت بیشتر  به شما توصیه می کنیم اکانت تلگرام خود را در دیگر نسخه های تلگرام ببندید
+  \n\n
+
+  </string>
+
+    <string name="TerminatedAllSessions">تمامی دستگاه های دیگر غیر فعال شدند .</string>
+
+
+    <string name="wait">لطفا صبر کنید</string>
+    <string name="FixReports">رفع ریپورتی</string>
+    <string name="CheckInternet">اتصال به اینترنت را بررسی کنید</string>
+
+    <string name="ProForwardError">در فوروارد پیشرفته امکان ارسال نام صاحب پیام وجود ندارد.</string>
+
+    <string name="empty_search">موردی یافت نشد !</string>
+    <string name="CacheCleaner">جارو برقی</string>
+
+
+    <string name="Bio">Biography</string>
+    <string name="EditBio">Edit Biography</string>
+
+
+    <!--fonts-->
+    <string name="FontApplied">فونت ذخیره شد !</string>
+    <string name="FontChange">تغییر فونت</string>
+
+    <string name="DeleteContacts">حذف مخاطبین</string>
+
+    <!--hidden chat-->
+    <!--hidden chat-->
+    <string name="unHideAChat">خارج کردن از حالت مخفی</string>
+    <string name="unHideSpecialChat">انتقال به لیست اصلی</string>
+    <string name="unHideACode">نمایش یک کد</string>
+    <string name="hideCode">کد مخفی</string>
+    <string name="hideChat">مخفی کردن چت</string>
+    <string name="hideChatError">کد ورودی باید حداقل 4 رقم و حداکثر 10 رقم باشد !</string>
+
+
+    <string name="unHideCodeMessage">
+        در این بخش با وارد کردن رمز عبور، به چت های مخفی دسترسی خواهید داشت :
+        \n\n
+      </string>
+
+
+    <string name="unHideCodeMessage2">
+لطفا رمز عبور خود را انتخاب کنید و به خاطر بسپارید :
+        \n\n
+      </string>
+
+
+    <string name="hideCodeMessage">کد را برای مخفی کردن تمام چت های تنظیم شده با این کد وارد کنید :
+        \n\n
+      </string>
+
+    <string name="aboutUs">درباره ما</string>
+
+
+    <string name="hideGhostMode">پنهان کردن حالت روح از تولبار</string>
+    <string name="dont_Tik">خوانده نشدن تعداد پیام ها در حالت روح</string>
+    <string name="hideLockMode">پنهان کردن چت مخفی از تولبار</string>
+
+    <!--category management-->
+    <string name="newCategory">اضافه کردن دسته بندی</string>
+    <string name="addToCategory">اضافه به یک دسته بندی</string>
+    <string name="insertCategory">اضافه</string>
+    <string name="insertCategoryName">لطفا نام دسته بندی مورد نظر را وارد کنید :</string>
+    <string name="noCategory">شما هیچ دسته بندی ای تا کنون ایجاد نکرده اید. لطفا ابتدا یک دسته بندی جدید ایجاد کنید : </string>
+    <string name="selectCategory">انتخاب دسته بندی </string>
+    <string name="categorySettings">نمایش دسته بندی ها در تولبار</string>
+    <string name="categorySettingsTitle">تنظیمات دسته بندی</string>
+    <string name="category">دسته بندی</string>
+
+
+    <string name="DeleteForAll">حذف برای تمام کاربران</string>
+    <string name="DeleteForUser">حذف برای %1$s</string>
+
+    <string name="DontShowAgain">این پیام را دیگر نمایش نده !</string>
+    <string name="DontShowAgain2">متن‌بالا را بطور ڪامل مطالعه ڪردم</string>
+
+    <string name="addToFavorite">اضافه به کانال های مورد علاقه</string>
+    <string name="deleteFromFavorite">حذف از کانال های مورد علاقه</string>
+
+    <string name="ShowPaint">نمایش نقاشی در صفحه چت</string>
+    <string name="showCloudRow">نمایش دکمه ذخیره در فضای ابری</string>
+    <string name="ShowChatFloatDate">نمایش تاریخ شناور</string>
+
+    <string name="voiceChangerHelp">شما میتوانید با انتخاب هر یک از حالت های زیر صدای خود را با تغییر به دیگران ارسال نمایید. این حالت مخصوص آندروید 5 به بالا می باشد. بنابراین در آندروید 5 به پایین غیر فعال میشود.</string>
+    <string name="voicechanger">تغییر صدا</string>
+    <string name="menu_user_info">درباره این چت</string>
+    <string name="menu_user_info_edit">ویرایش اطلاعات مربوط به این چت</string>
+    <string name="menu_user_info_insert">وارد کردن اطلاعات این چت</string>
+    <string name="menu_user_info_hint">متن دلخواه خود را برای این چت وارد کنید ..</string>
+    <string name="helperr">راهنمایی</string>
+    <string name="PleaseChooseyourmode">لطفا یک حالت را انتخاب نمایید:</string>
+    <string name="NormalMode">حالت عادی</string>
+    <string name="TeleXMode">حالت تله ایکس</string>
+    <string name="ModeWrite1">حالت 1 : مرد</string>
+    <string name="ModeWrite2">حالت 2</string>
+    <string name="ModeWrite3">حالت 3</string>
+    <string name="ModeWrite4">حالت 4</string>
+    <string name="ModeWrite5">حالت 5 : زن</string>
+    <string name="ModeWrite6">سریعتر یا کندتر</string>
+    <string name="ModeWrite6_VerySlow">خیلی کند</string>
+    <string name="ModeWrite6_Slow">کندتر</string>
+    <string name="ModeWrite6_Fast">سریعتر</string>
+    <string name="ModeWrite6_VaryFast">خیلی سریعتر</string>
+    <string name="ModeWrite7">زیر و بم</string>
+    <string name="ModeWrite7_title">نیمگام</string>
+
+    <string name="test">test / حالت زیبا سازی</string>
+    <string name="zibasazi">زیبا سازی متن</string>
+    <string name="editChangerHelp">با این ویژگی میتونید متن های زیبا سازی شده برای دوستان خود ارسال کنید ،
+  \n\n
+  فقط کافیه یکی از گزینه های زیر را انتخاب کنید و پیام های متنی خودتون رو بعد از ارسال شدن ببینید .</string>
+
+    <string name="autoanserr">منشی</string>
+    <string name="autoanserrText">متن منشی</string>
+    <string name="saveautoanserrText">ذخیره متن منشی</string>
+    <string name="txtanswering">در حال حاضر قادر به پاسخگویی نیستم ... منشی تلگرام :)</string>
+    <string name="delayTime">زمان پاسخ گویی</string>
+    <string name="helpanswering">با استفاده از این ویژگی هر کاربری که به شما پیام میدهد منشی تلگرام پاسخ آن را ارسال میکند. شما میتوانید پیغام پاسخ را ویرایش نمایید.</string>
+    <string name="Minutes_Mine">%1$d دقیقه</string>
+
+    <string name="anotherAppMessage">شما در حال حاضر تله ایکس 2 را برروی دستگاه خود نصب ندارید !
+  \n\n
+  لطفا ابتدا برنامه را از کافه بازار دانلود و نصب کنید .</string>
+
+    <string name="download">دانلود</string>
+    <string name="downloadManager">مدیریت دانلود</string>
+
+    <string name="TimedForward">فوروارد در زمان مشخص</string>
+    <string name="sendTime">زمان ارسال</string>
+
+    <string name="install">نصب</string>
+
+
+    <string name="AreYouSureLogout">آیا مطمئنید می خواهید خارج شوید ؟!
+\n\n
+ شما می توانید از تلگرام در تمامی دستگاه های خود به صورت یکپارچه استفاده کنید.
+\n\n
+ با خروج از سیستم چت های امنیتی شما از بین خواهد رفت</string>
+
+
+    <string name="selectAll">انتخاب همه</string>
+
+    <string name="selectAllContactsMessage">آیا از انتخاب تمام مخاطبان اطمینان دارید ؟!</string>
+
+    <string name="chatStickerRow">تایید استیکر قبل از ارسال</string>
+    <string name="chatvoiceRow">تایید صدا قبل از ارسال</string>
+    <string name="showAdminTextView">نمایش آیدی در صفحه پروفایل</string>
+
+    <string name="AdIntentsAppAlert">"توجه : این درخواست عضویت توسط برنامه زیر ارسال شده است:
+
+ \"%1$s\"
+
+و تله ایکس نقشی در صحت و یا اعتبار این لینک ندارد."</string>
+
+    <string name="forigenreq">درخواست خارجی !</string>
+
+    <string name="notifsOff">تبلیغات اجازه دارد</string>
+    <string name="OFF">خاموش</string>
+    <string name="notifsOn">تبلیغات مسدود است</string>
+
+
+    <!-- VoIP -->
+    <string name="Vibrate">لرزش</string>
+    <string name="VibrationDefault">پیش فرض</string>
+    <string name="VibrationDisabled">غیرفعال</string>
+    <string name="VideoCaption">عنوان ویدئو</string>
+    <string name="ViewPackPreview">نمایش بسته</string>
+    <string name="Vignette">شکل</string>
+    <string name="VoipAnswerCall">پاسخ دادن</string>
+    <string name="VoipAudioRoutingBluetooth">هدست بلوتوث</string>
+    <string name="VoipAudioRoutingEarpiece">هندزفری</string>
+    <string name="VoipAudioRoutingSpeaker">بلندگو</string>
+    <string name="VoipBusy">اشغال</string>
+    <string name="VoipCallEnded">تماس خاتمه داده شد</string>
+    <string name="VoipConnecting">در حال برقراری ارتباط</string>
+    <string name="VoipDeclineCall">رد کردن</string>
+    <string name="VoipEndCall">پایان تماس</string>
+    <string name="VoipExchangingKeys">تبادل کلید های رمزگذاری</string>
+    <string name="VoipFailed">اشکال در برقراری ارتباط</string>
+    <string name="VoipFeedbackCommentHint">اضافه کردن یک نظر اختیاری</string>
+    <string name="VoipHangingUp">در حال خاتمه</string>
+    <string name="VoipInCallBranding">تماس تلگرامی</string>
+    <string name="VoipIncoming">تماس ورودی</string>
+    <string name="VoipNeedMicPermission">برای برقراری تماس، موبوگرام نیاز به دسترسی به میکروفون دارد.</string>
+    <string name="VoipNotificationSettings">تماس صوتی</string>
+    <string name="VoipOffline">شما در حال حاضر آفلاین هستید. لطفا برای برقرار تماس به اینترنت متصل شوید.</string>
+    <string name="VoipOfflineAirplane">حالت پرواز فعال است. برای برقراری تماس لطفا حالت پرواز را خاموش کنید یا به وای فای متصل شوید.</string>
+    <string name="VoipOfflineAirplaneTitle">حالت پرواز</string>
+    <string name="VoipOfflineOpenSettings">تنظیمات</string>
+    <string name="VoipOfflineTitle">آفلاین</string>
+    <string name="VoipOngoingAlert">شما در حال حاضر در حال تماس با &lt;b>%1$s&lt;/b>هستید. آیا مایل به خاتمه به این تماس و برقراری تماس جدید با &lt;b>%2$s&lt;/b> می باشید؟</string>
+    <string name="VoipOngoingAlertTitle">یک تماس دیگر در حال پردازش است</string>
+    <string name="VoipOutgoingCall">در حال برقراری تماس تلگرامی</string>
+    <string name="VoipPeerIncompatible">برنامه &lt;b>%1$s&lt;/b> در حال استفاده از یک پروتکل ناسازگار است. قبل از اینکه شما بتوانید تماس بگیرید باید برنامه خود را بروزرسانی کنند.</string>
+    <string name="VoipPeerOutdated">برنامه &lt;b>%1$s&lt;/b> از امکان تماس صوتی پشتیبانی نمی کند. او باید برای برقراری تماس، برنامه خود را بروزرسانی کند.</string>
+    <string name="VoipRateCallAlert">لطفا به کیفیت تماس امتیاز دهید.</string>
+    <string name="VoipRequesting">در حال درخواست</string>
+    <string name="VoipRinging">در حال زنگ خوردن</string>
+    <string name="VoipRingtoneInfo">شما می توانید آهنگ زنگ را برای تماس تلگرامی این مخاطب تغییر دهید.</string>
+    <string name="VoipSettingsRingtone">آهنگ زنگ</string>
+    <string name="VoipUseLessData">استفاده کمتر از داده ها هنگام تماس</string>
+    <string name="VoipWaiting">انتظار</string>
+    <string name="OutgoingCalls">تماس های گرفته شده</string>
+    <string name="IncomingCalls">تماس های دریافت شده</string>
+    <string name="WhoCanCallMe">چه کسانی میتوانند با من تماس بگیرند؟</string>
+    <string name="WhoCanCallMeInfo">شما می توانید افرادی که می توانند با شما تماس بگیرند را محدود کنید.</string>
+    <string name="WiFiUsage">استفاده از وای فای</string>
+    <string name="Calls">تماس ها</string>
+
+    <string name="NewMessages_few">%1$d پیام جدید</string>
+    <string name="NewMessages_many">%1$d پیام جدید</string>
+    <string name="NewMessages_one">%1$d پیام جدید</string>
+    <string name="NewMessages_other">%1$d پیام جدید</string>
+    <string name="NewMessages_two">%1$d پیام جدید</string>
+    <string name="NewMessages_zero">پیام جدیدی نیست</string>
+    <string name="Next">بعدی</string>
+
+
+</resources>
